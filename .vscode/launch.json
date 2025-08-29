@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build and Flash",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/OS.elf",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "arm-none-eabi-gdb",  // 仍需指定，但不会实际使用
+            "preLaunchTask": "Build and Flash",  // 执行构建任务
+            "postDebugTask": "Close Terminal"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+# config.yaml
+files:
+  - path: "Gui/generated/setup_scr_screen.c"
+    operations:
+      - type: "replace"
+        pattern: "&lv_font_"
+        replacement: ""
+
+  - path: "Gui/generated/setup_scr_screen_file.c"
+    operations:
+      - type: "replace"
+        pattern: "&lv_font_"
+        replacement: ""
+
+  - path: "Gui/generated/setup_scr_screen_paint.c"
+    operations:
+      - type: "replace"
+        pattern: "&lv_font_"
+        replacement: ""
+  - path: "Gui/generated/setup_scr_screen_serial.c"
+    operations:
+      - type: "replace"
+        pattern: "&lv_font_"
+        replacement: ""
+
+  - path: "Gui/generated/gui_guider.c"
+    operations:
+      - type: "replace"
+        pattern: "&lv_font_"
+        replacement: ""
+
+      - type: "insert_after"
+        pattern: "#include \"widgets_init.h\""
+        insert_text: "\n#include \"custom.h\""
+
+  - path: "Core\\Src\\rtc.c"
+    operations:
+      - type: "insert_after"
+        pattern: "/\\*\\* Enable the Alarm A\\s*\\n\\s*\\*/"
+        insert_text: "  alarm:"
+  - path: "Core\\Src\\main.c"
+    operations:
+      - type: "replace"
+        pattern: "void HAL_TIM_PeriodElapsedCallback"
+        replacement: "__weak void HAL_TIM_PeriodElapsedCallback"

@@ -1,0 +1,716 @@
+2025-08-24 17:27:34,294 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 17:27:34,295 - ERROR - File not found: app_config.cfg, current work dir: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 17:27:34,296 - INFO - Skipping executed operation: 6b561a9d...
+2025-08-24 17:27:34,296 - INFO - Processing completed
+2025-08-24 17:28:11,745 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 17:28:11,745 - ERROR - File not found: app_config.cfg, current work dir: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 17:28:11,746 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-24 17:28:11,746 - INFO - Processing completed
+2025-08-24 17:32:41,920 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 17:32:41,921 - ERROR - File not found: app_config.cfg, current work dir: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 17:32:41,922 - INFO - Inserted text after pattern '//\s*The custom code of screen.' in Gui/generated/setup_scr_screen.c
+2025-08-24 17:32:41,925 - INFO - Updated Gui/generated/setup_scr_screen.c
+2025-08-24 17:32:41,926 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-24 17:32:41,926 - INFO - Inserted text after pattern '//\s*The custom code of screen_paint.' in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 17:32:41,928 - INFO - Updated Gui/generated/setup_scr_screen_paint.c
+2025-08-24 17:32:41,931 - INFO - Updated state with 2 new operations
+2025-08-24 17:32:41,932 - INFO - Processing completed
+2025-08-24 18:01:48,212 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:01:48,213 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:01:48,213 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:01:48,213 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:01:48,214 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:01:48,214 - INFO - Processing completed
+2025-08-24 18:03:07,383 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:03:07,384 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:03:07,384 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:03:07,385 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:03:07,385 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:03:07,385 - INFO - Processing completed
+2025-08-24 18:03:07,392 - INFO - os.path.abspath D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:03:07,393 - INFO - process Gui\generated\images\_color_RGB565A8_50x50.c
+2025-08-24 18:03:07,394 - INFO - img_name: color, color_format: RGB565A8, size: 50x50
+2025-08-24 18:03:07,394 - INFO - 50
+2025-08-24 18:03:07,395 - INFO - 50
+2025-08-24 18:03:07,397 - INFO - 7500
+2025-08-24 18:03:07,401 - INFO - process Gui\generated\images\_huabi_RGB565A8_50x50.c
+2025-08-24 18:03:07,401 - INFO - img_name: huabi, color_format: RGB565A8, size: 50x50
+2025-08-24 18:03:07,402 - INFO - 50
+2025-08-24 18:03:07,402 - INFO - 50
+2025-08-24 18:03:07,405 - INFO - 7500
+2025-08-24 18:03:07,408 - INFO - process Gui\generated\images\_humidity_RGB565A8_32x32.c
+2025-08-24 18:03:07,408 - INFO - img_name: humidity, color_format: RGB565A8, size: 32x32
+2025-08-24 18:03:07,408 - INFO - 32
+2025-08-24 18:03:07,408 - INFO - 32
+2025-08-24 18:03:07,409 - INFO - 3072
+2025-08-24 18:03:07,451 - INFO - process Gui\generated\images\_moutain_RGB565_1024x600.c
+2025-08-24 18:03:07,453 - INFO - img_name: moutain, color_format: RGB565, size: 1024x600
+2025-08-24 18:03:07,498 - INFO - 1024
+2025-08-24 18:03:07,546 - INFO - 600
+2025-08-24 18:03:08,078 - INFO - 1228800
+2025-08-24 18:03:08,336 - INFO - process Gui\generated\images\_paint_RGB565A8_64x64.c
+2025-08-24 18:03:08,336 - INFO - img_name: paint, color_format: RGB565A8, size: 64x64
+2025-08-24 18:03:08,337 - INFO - 64
+2025-08-24 18:03:08,337 - INFO - 64
+2025-08-24 18:03:08,341 - INFO - 12288
+2025-08-24 18:03:08,346 - INFO - process Gui\generated\images\_savset_RGB565A8_64x64.c
+2025-08-24 18:03:08,347 - INFO - img_name: savset, color_format: RGB565A8, size: 64x64
+2025-08-24 18:03:08,347 - INFO - 64
+2025-08-24 18:03:08,348 - INFO - 64
+2025-08-24 18:03:08,351 - INFO - 12288
+2025-08-24 18:03:08,356 - INFO - process Gui\generated\images\_serial_RGB565A8_64x64.c
+2025-08-24 18:03:08,356 - INFO - img_name: serial, color_format: RGB565A8, size: 64x64
+2025-08-24 18:03:08,357 - INFO - 64
+2025-08-24 18:03:08,358 - INFO - 64
+2025-08-24 18:03:08,362 - INFO - 12288
+2025-08-24 18:03:08,366 - INFO - process Gui\generated\images\_temperature_RGB565A8_33x32.c
+2025-08-24 18:03:08,367 - INFO - img_name: temperature, color_format: RGB565A8, size: 33x32
+2025-08-24 18:03:08,367 - INFO - 33
+2025-08-24 18:03:08,367 - INFO - 32
+2025-08-24 18:03:08,368 - INFO - 3168
+2025-08-24 18:08:11,401 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:08:11,402 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:08:11,403 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:08:11,403 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:08:11,403 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:08:11,404 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:08:11,404 - INFO - Processing completed
+2025-08-24 18:08:11,406 - INFO - os.path.abspath D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:09:08,261 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:09:08,263 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:09:08,263 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:09:08,263 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:09:08,264 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:09:08,264 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:09:08,264 - INFO - Processing completed
+2025-08-24 18:09:44,618 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:09:44,619 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:09:44,619 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:09:44,620 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:09:44,620 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:09:44,620 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:09:44,620 - INFO - Processing completed
+2025-08-24 18:41:13,304 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:41:13,305 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:41:13,306 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:41:13,307 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:41:13,307 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:41:13,308 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:41:13,308 - ERROR - Regex error: multiple repeat at position 2 (line 1, column 3)
+2025-08-24 18:41:13,308 - INFO - Processing completed
+2025-08-24 18:42:18,764 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:42:18,765 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:42:18,765 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:42:18,765 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:42:18,766 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:42:18,766 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:42:47,764 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:42:47,766 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:42:47,767 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:42:47,767 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:42:47,767 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:42:47,768 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:43:06,432 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:43:06,433 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:43:06,433 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:43:06,434 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:43:06,434 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:43:06,435 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:43:53,193 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:43:53,194 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:43:53,194 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:43:53,196 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:43:53,196 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:43:53,196 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:43:53,198 - ERROR - Regex error: multiple repeat at position 2 (line 1, column 3)
+2025-08-24 18:43:53,198 - INFO - Processing completed
+2025-08-24 18:45:22,595 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:45:22,596 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:45:22,596 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:45:22,596 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:45:22,597 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:45:22,597 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:45:22,597 - ERROR - Regex error: multiple repeat at position 2
+2025-08-24 18:45:22,598 - INFO - Processing completed
+2025-08-24 18:46:10,098 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:46:10,099 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:46:10,100 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:46:10,100 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:46:10,100 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:46:10,101 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:46:10,101 - ERROR - Regex error: multiple repeat at position 3
+2025-08-24 18:46:10,101 - INFO - Processing completed
+2025-08-24 18:46:30,914 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:46:30,915 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:46:30,915 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:46:30,916 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:46:30,916 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:46:30,916 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:46:30,917 - ERROR - Regex error: multiple repeat at position 2
+2025-08-24 18:46:30,917 - INFO - Processing completed
+2025-08-24 18:46:43,637 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:46:43,638 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:46:43,639 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:46:43,639 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:46:43,639 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:46:43,640 - WARNING - Pattern 'lv_image_set_src(ui->screen_img_1, &_temperature_RGB565A8_33x32);' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:46:43,640 - ERROR - Regex error: multiple repeat at position 2
+2025-08-24 18:46:43,640 - INFO - Processing completed
+2025-08-24 18:48:19,849 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:48:19,851 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:48:19,851 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:48:19,851 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:48:19,852 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:48:19,853 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n/' not found in Core\Src\rtc.c
+2025-08-24 18:48:19,853 - INFO - Processing completed
+2025-08-24 18:48:34,228 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:48:34,229 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:48:34,229 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:48:34,230 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:48:34,230 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:48:34,231 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*/' not found in Core\Src\rtc.c
+2025-08-24 18:48:34,231 - INFO - Processing completed
+2025-08-24 18:50:31,310 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:50:31,311 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:50:31,312 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:50:31,312 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:50:31,313 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:50:31,313 - INFO - Inserted text after pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' in Core\Src\rtc.c
+2025-08-24 18:50:31,318 - INFO - Updated Core\Src\rtc.c
+2025-08-24 18:50:31,322 - INFO - Updated state with 1 new operations
+2025-08-24 18:50:31,322 - INFO - Processing completed
+2025-08-24 18:51:08,518 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:51:08,519 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:51:08,520 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:51:08,520 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:51:08,520 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:51:08,521 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 18:51:08,521 - INFO - Processing completed
+2025-08-24 18:51:10,493 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:51:10,493 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:51:10,494 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:51:10,494 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:51:10,495 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:51:10,495 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 18:51:10,495 - INFO - Processing completed
+2025-08-24 18:51:11,984 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:51:11,985 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:51:11,985 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:51:11,986 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:51:11,986 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:51:11,986 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 18:51:11,986 - INFO - Processing completed
+2025-08-24 18:51:44,339 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 18:51:44,340 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen.c
+2025-08-24 18:51:44,341 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_file.c
+2025-08-24 18:51:44,341 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 18:51:44,341 - WARNING - Pattern '&lv_font_' not found in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 18:51:44,342 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 18:51:44,342 - INFO - Processing completed
+2025-08-24 19:42:43,012 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 19:42:43,014 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen.c
+2025-08-24 19:42:43,018 - INFO - Updated Gui/generated/setup_scr_screen.c
+2025-08-24 19:42:43,018 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen_file.c
+2025-08-24 19:42:43,019 - INFO - Updated Gui/generated/setup_scr_screen_file.c
+2025-08-24 19:42:43,019 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 19:42:43,020 - INFO - Updated Gui/generated/setup_scr_screen_paint.c
+2025-08-24 19:42:43,021 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 19:42:43,022 - INFO - Updated Gui/generated/setup_scr_screen_serial.c
+2025-08-24 19:42:43,022 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 19:42:43,026 - INFO - Updated state with 4 new operations
+2025-08-24 19:42:43,026 - INFO - Processing completed
+2025-08-24 21:04:46,346 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 21:04:46,348 - INFO - Skipping executed operation: 04588033...
+2025-08-24 21:04:46,348 - INFO - Skipping executed operation: c735e325...
+2025-08-24 21:04:46,349 - INFO - Skipping executed operation: 614918a9...
+2025-08-24 21:04:46,349 - INFO - Skipping executed operation: 5de17e6c...
+2025-08-24 21:04:46,350 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 21:04:46,350 - INFO - Processing completed
+2025-08-24 21:05:35,060 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 21:05:35,061 - INFO - Skipping executed operation: 04588033...
+2025-08-24 21:05:35,061 - INFO - Skipping executed operation: c735e325...
+2025-08-24 21:05:35,061 - INFO - Skipping executed operation: 614918a9...
+2025-08-24 21:05:35,062 - INFO - Skipping executed operation: 5de17e6c...
+2025-08-24 21:05:35,062 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 21:05:35,062 - INFO - Processing completed
+2025-08-24 21:05:51,120 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 21:05:51,121 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen.c
+2025-08-24 21:05:51,125 - INFO - Updated Gui/generated/setup_scr_screen.c
+2025-08-24 21:05:51,125 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen_file.c
+2025-08-24 21:05:51,126 - INFO - Updated Gui/generated/setup_scr_screen_file.c
+2025-08-24 21:05:51,127 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 21:05:51,128 - INFO - Updated Gui/generated/setup_scr_screen_paint.c
+2025-08-24 21:05:51,128 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 21:05:51,130 - INFO - Updated Gui/generated/setup_scr_screen_serial.c
+2025-08-24 21:05:51,130 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 21:05:51,131 - INFO - Updated state with 4 new operations
+2025-08-24 21:05:51,131 - INFO - Processing completed
+2025-08-24 21:07:46,313 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 21:07:46,315 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-24 21:07:46,315 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-24 21:07:46,316 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-24 21:07:46,316 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-24 21:07:46,317 - INFO - Replaced pattern '&lv_font_' in Gui/generated/gui_guider.c
+2025-08-24 21:07:46,321 - INFO - Updated Gui/generated/gui_guider.c
+2025-08-24 21:07:46,322 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 21:07:46,322 - INFO - Updated state with 1 new operations
+2025-08-24 21:07:46,322 - INFO - Processing completed
+2025-08-24 21:09:36,823 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 21:09:36,825 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-24 21:09:36,825 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-24 21:09:36,825 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-24 21:09:36,826 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-24 21:09:36,826 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-24 21:09:36,826 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 21:09:36,827 - INFO - Processing completed
+2025-08-24 21:10:26,976 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 21:10:26,978 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-24 21:10:26,978 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-24 21:10:26,978 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-24 21:10:26,979 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-24 21:10:26,979 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-24 21:10:26,980 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 21:10:26,980 - INFO - Processing completed
+2025-08-24 21:10:42,683 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 21:10:42,685 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-24 21:10:42,686 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-24 21:10:42,686 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-24 21:10:42,686 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-24 21:10:42,687 - WARNING - Pattern '&lv_font_' not found in Gui/generated/gui_guider.c
+2025-08-24 21:10:42,687 - INFO - Inserted text after pattern '#include "widgets_init.h"' in Gui/generated/gui_guider.c
+2025-08-24 21:10:42,688 - INFO - Updated Gui/generated/gui_guider.c
+2025-08-24 21:10:42,688 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 21:10:42,688 - INFO - Updated state with 2 new operations
+2025-08-24 21:10:42,688 - INFO - Processing completed
+2025-08-24 21:20:09,388 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-24 21:20:09,390 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen.c
+2025-08-24 21:20:09,394 - INFO - Updated Gui/generated/setup_scr_screen.c
+2025-08-24 21:20:09,394 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen_file.c
+2025-08-24 21:20:09,395 - INFO - Updated Gui/generated/setup_scr_screen_file.c
+2025-08-24 21:20:09,395 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen_paint.c
+2025-08-24 21:20:09,397 - INFO - Updated Gui/generated/setup_scr_screen_paint.c
+2025-08-24 21:20:09,397 - INFO - Replaced pattern '&lv_font_' in Gui/generated/setup_scr_screen_serial.c
+2025-08-24 21:20:09,398 - INFO - Updated Gui/generated/setup_scr_screen_serial.c
+2025-08-24 21:20:09,398 - INFO - Replaced pattern '&lv_font_' in Gui/generated/gui_guider.c
+2025-08-24 21:20:09,399 - INFO - Inserted text after pattern '#include "widgets_init.h"' in Gui/generated/gui_guider.c
+2025-08-24 21:20:09,399 - INFO - Updated Gui/generated/gui_guider.c
+2025-08-24 21:20:09,400 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-24 21:20:09,400 - INFO - Updated state with 6 new operations
+2025-08-24 21:20:09,400 - INFO - Processing completed
+2025-08-26 16:50:49,929 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 16:50:49,930 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 16:50:49,930 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 16:50:49,931 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 16:50:49,931 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 16:50:49,931 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 16:50:49,931 - INFO - Inserted text after pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' in Core\Src\rtc.c
+2025-08-26 16:50:49,936 - INFO - Updated Core\Src\rtc.c
+2025-08-26 16:50:49,937 - INFO - Updated state with 1 new operations
+2025-08-26 16:50:49,937 - INFO - Processing completed
+2025-08-26 16:52:07,091 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 16:52:07,092 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 16:52:07,092 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 16:52:07,093 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 16:52:07,093 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 16:52:07,094 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 16:52:07,094 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-26 16:52:07,094 - INFO - Processing completed
+2025-08-26 16:53:04,210 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 16:53:04,212 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 16:53:04,212 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 16:53:04,213 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 16:53:04,213 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 16:53:04,213 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 16:53:04,214 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-26 16:53:04,214 - INFO - Processing completed
+2025-08-26 16:53:58,042 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 16:53:58,043 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 16:53:58,043 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 16:53:58,043 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 16:53:58,044 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 16:53:58,044 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 16:53:58,044 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-26 16:53:58,045 - INFO - Processing completed
+2025-08-26 16:57:43,557 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 16:57:43,558 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 16:57:43,558 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 16:57:43,559 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 16:57:43,559 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 16:57:43,559 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 16:57:43,560 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-26 16:57:43,560 - INFO - Processing completed
+2025-08-26 16:59:23,335 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 16:59:23,335 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 16:59:23,335 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 16:59:23,337 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 16:59:23,337 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 16:59:23,338 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 16:59:23,338 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-26 16:59:23,338 - INFO - Processing completed
+2025-08-26 17:02:45,062 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 17:02:45,063 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 17:02:45,063 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 17:02:45,064 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 17:02:45,064 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 17:02:45,064 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 17:02:45,065 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-26 17:02:45,065 - INFO - Processing completed
+2025-08-26 17:11:25,753 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 17:11:25,754 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 17:11:25,754 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 17:11:25,755 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 17:11:25,755 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 17:11:25,755 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 17:11:25,756 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-26 17:11:25,756 - INFO - Processing completed
+2025-08-26 17:12:00,117 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 17:12:00,118 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 17:12:00,119 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 17:12:00,119 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 17:12:00,119 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 17:12:00,120 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 17:12:00,120 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-26 17:12:00,120 - INFO - Processing completed
+2025-08-26 17:13:50,736 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 17:13:50,737 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 17:13:50,738 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 17:13:50,738 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 17:13:50,739 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 17:13:50,739 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 17:13:50,740 - INFO - Inserted text after pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' in Core\Src\rtc.c
+2025-08-26 17:13:50,741 - INFO - Updated Core\Src\rtc.c
+2025-08-26 17:13:50,741 - INFO - Updated state with 1 new operations
+2025-08-26 17:13:50,741 - INFO - Processing completed
+2025-08-26 17:15:48,998 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 17:15:48,999 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 17:15:48,999 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 17:15:49,000 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 17:15:49,000 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 17:15:49,001 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 17:15:49,001 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-26 17:15:49,001 - INFO - Processing completed
+2025-08-26 17:16:02,407 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 17:16:02,408 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 17:16:02,409 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 17:16:02,410 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 17:16:02,410 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 17:16:02,410 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 17:16:02,411 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-26 17:16:02,411 - INFO - Processing completed
+2025-08-26 17:17:32,335 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-26 17:17:32,336 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-26 17:17:32,337 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-26 17:17:32,337 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-26 17:17:32,337 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-26 17:17:32,338 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-26 17:17:32,338 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-26 17:17:32,338 - INFO - Processing completed
+2025-08-27 12:07:40,731 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 12:07:40,732 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 12:07:40,732 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 12:07:40,732 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 12:07:40,733 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 12:07:40,733 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 12:07:40,733 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-27 12:07:40,733 - INFO - Processing completed
+2025-08-27 12:15:00,620 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 12:15:00,621 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 12:15:00,622 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 12:15:00,622 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 12:15:00,622 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 12:15:00,623 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 12:15:00,623 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-27 12:15:00,623 - INFO - Processing completed
+2025-08-27 12:16:10,091 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 12:16:10,092 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 12:16:10,093 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 12:16:10,093 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 12:16:10,094 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 12:16:10,094 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 12:16:10,094 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-27 12:16:10,094 - INFO - Processing completed
+2025-08-27 15:02:38,412 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:02:38,414 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:02:38,414 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:02:38,414 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:02:38,415 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:02:38,415 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:02:38,416 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-27 15:02:38,416 - INFO - Processing completed
+2025-08-27 15:06:31,485 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:06:31,487 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:06:31,487 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:06:31,487 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:06:31,488 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:06:31,488 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:06:31,489 - INFO - Inserted text after pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' in Core\Src\rtc.c
+2025-08-27 15:06:31,490 - INFO - Updated Core\Src\rtc.c
+2025-08-27 15:06:31,491 - INFO - Updated state with 1 new operations
+2025-08-27 15:06:31,491 - INFO - Processing completed
+2025-08-27 15:08:41,954 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:08:41,955 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:08:41,956 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:08:41,956 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:08:41,956 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:08:41,957 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:08:41,957 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-27 15:08:41,957 - INFO - Processing completed
+2025-08-27 15:12:07,455 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:12:07,456 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:12:07,457 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:12:07,457 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:12:07,457 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:12:07,458 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:12:07,458 - INFO - Inserted text after pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' in Core\Src\rtc.c
+2025-08-27 15:12:07,459 - INFO - Updated Core\Src\rtc.c
+2025-08-27 15:12:07,459 - INFO - Updated state with 1 new operations
+2025-08-27 15:12:07,459 - INFO - Processing completed
+2025-08-27 15:14:47,947 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:14:47,949 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:14:47,949 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:14:47,949 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:14:47,950 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:14:47,950 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:14:47,950 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-27 15:14:47,950 - INFO - Processing completed
+2025-08-27 15:15:40,664 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:15:40,665 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:15:40,666 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:15:40,666 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:15:40,666 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:15:40,667 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:15:40,667 - INFO - Inserted text after pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' in Core\Src\rtc.c
+2025-08-27 15:15:40,668 - INFO - Updated Core\Src\rtc.c
+2025-08-27 15:15:40,668 - INFO - Updated state with 1 new operations
+2025-08-27 15:15:40,669 - INFO - Processing completed
+2025-08-27 15:16:00,742 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:16:00,745 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:16:00,745 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:16:00,746 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:16:00,746 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:16:00,746 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:16:00,747 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-27 15:16:00,747 - INFO - Processing completed
+2025-08-27 15:16:12,254 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:16:12,255 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:16:12,255 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:16:12,256 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:16:12,256 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:16:12,256 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:16:12,257 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-27 15:16:12,257 - INFO - Processing completed
+2025-08-27 15:20:57,324 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:20:57,326 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:20:57,326 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:20:57,326 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:20:57,327 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:20:57,327 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:20:57,327 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-27 15:20:57,328 - INFO - Processing completed
+2025-08-27 15:25:21,690 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:25:21,691 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:25:21,691 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:25:21,692 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:25:21,692 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:25:21,692 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:25:21,692 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-27 15:25:21,692 - INFO - Processing completed
+2025-08-27 15:26:10,281 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:26:10,282 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:26:10,283 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:26:10,283 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:26:10,283 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:26:10,284 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:26:10,284 - INFO - Inserted text after pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' in Core\Src\rtc.c
+2025-08-27 15:26:10,285 - INFO - Updated Core\Src\rtc.c
+2025-08-27 15:26:10,285 - INFO - Updated state with 1 new operations
+2025-08-27 15:26:10,286 - INFO - Processing completed
+2025-08-27 15:28:16,271 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-27 15:28:16,272 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-27 15:28:16,273 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-27 15:28:16,273 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-27 15:28:16,274 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-27 15:28:16,274 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-27 15:28:16,274 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-27 15:28:16,275 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-27 15:28:16,280 - INFO - Updated Core\Src\main.c
+2025-08-27 15:28:16,281 - INFO - Updated state with 1 new operations
+2025-08-27 15:28:16,281 - INFO - Processing completed
+2025-08-29 12:22:36,784 - INFO - current path: D:\Program\STM32\F429\LCD_RGB
+2025-08-29 12:22:36,785 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-29 12:22:36,787 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-29 12:22:36,787 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-29 12:22:36,788 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-29 12:22:36,789 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-29 12:22:36,789 - INFO - Skipping modified file: Core\Src\rtc.c
+2025-08-29 12:22:36,790 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 12:22:36,790 - INFO - Processing completed
+2025-08-29 16:37:16,790 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:37:16,792 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:37:16,792 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:37:16,792 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:37:16,793 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:37:16,793 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:37:16,794 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:37:16,794 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-29 16:37:16,798 - INFO - Updated Core\Src\main.c
+2025-08-29 16:37:16,800 - INFO - Updated state with 1 new operations
+2025-08-29 16:37:16,800 - INFO - Processing completed
+2025-08-29 16:37:55,540 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:37:55,541 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:37:55,541 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:37:55,542 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:37:55,542 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:37:55,542 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:37:55,543 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:37:55,543 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 16:37:55,543 - INFO - Processing completed
+2025-08-29 16:39:07,963 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:39:07,965 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:39:07,965 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:39:07,965 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:39:07,965 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:39:07,965 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:39:07,966 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:39:07,966 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 16:39:07,966 - INFO - Processing completed
+2025-08-29 16:39:30,154 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:39:30,155 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:39:30,155 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:39:30,155 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:39:30,156 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:39:30,156 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:39:30,156 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:39:30,156 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 16:39:30,156 - INFO - Processing completed
+2025-08-29 16:40:38,412 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:40:38,413 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:40:38,413 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:40:38,414 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:40:38,414 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:40:38,414 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:40:38,415 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:40:38,415 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 16:40:38,415 - INFO - Processing completed
+2025-08-29 16:43:31,410 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:43:31,411 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:43:31,411 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:43:31,412 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:43:31,412 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:43:31,412 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:43:31,414 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:43:31,414 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 16:43:31,414 - INFO - Processing completed
+2025-08-29 16:46:06,888 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:46:06,889 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:46:06,889 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:46:06,889 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:46:06,890 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:46:06,890 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:46:06,890 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:46:06,892 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-29 16:46:06,893 - INFO - Updated Core\Src\main.c
+2025-08-29 16:46:06,893 - INFO - Updated state with 1 new operations
+2025-08-29 16:46:06,893 - INFO - Processing completed
+2025-08-29 16:50:46,628 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:50:46,629 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:50:46,630 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:50:46,630 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:50:46,630 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:50:46,630 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:50:46,631 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:50:46,631 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 16:50:46,631 - INFO - Processing completed
+2025-08-29 16:55:32,057 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:55:32,059 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:55:32,059 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:55:32,060 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:55:32,060 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:55:32,060 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:55:32,061 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:55:32,062 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 16:55:32,062 - INFO - Processing completed
+2025-08-29 16:55:47,482 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:55:47,483 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:55:47,483 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:55:47,484 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:55:47,484 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:55:47,484 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:55:47,484 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:55:47,485 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-29 16:55:47,485 - INFO - Updated Core\Src\main.c
+2025-08-29 16:55:47,486 - INFO - Updated state with 1 new operations
+2025-08-29 16:55:47,486 - INFO - Processing completed
+2025-08-29 16:57:17,451 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:57:17,453 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:57:17,453 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:57:17,453 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:57:17,453 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:57:17,453 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:57:17,454 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:57:17,454 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-29 16:57:17,455 - INFO - Updated Core\Src\main.c
+2025-08-29 16:57:17,455 - INFO - Updated state with 1 new operations
+2025-08-29 16:57:17,455 - INFO - Processing completed
+2025-08-29 16:58:32,696 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 16:58:32,697 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:58:32,697 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:58:32,697 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:58:32,697 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:58:32,698 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 16:58:32,698 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 16:58:32,698 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 16:58:32,699 - INFO - Processing completed
+2025-08-29 17:01:00,819 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:01:00,820 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:01:00,820 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:01:00,821 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:01:00,821 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:01:00,821 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:01:00,822 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:01:00,822 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-29 17:01:00,823 - INFO - Updated Core\Src\main.c
+2025-08-29 17:01:00,823 - INFO - Updated state with 1 new operations
+2025-08-29 17:01:00,823 - INFO - Processing completed
+2025-08-29 17:04:18,179 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:04:18,180 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:04:18,180 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:04:18,180 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:04:18,180 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:04:18,181 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:04:18,181 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:04:18,182 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-29 17:04:18,182 - INFO - Updated Core\Src\main.c
+2025-08-29 17:04:18,183 - INFO - Updated state with 1 new operations
+2025-08-29 17:04:18,183 - INFO - Processing completed
+2025-08-29 17:06:55,314 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:06:55,315 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:06:55,315 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:06:55,316 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:06:55,316 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:06:55,316 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:06:55,316 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:06:55,317 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 17:06:55,317 - INFO - Processing completed
+2025-08-29 17:08:50,340 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:08:50,341 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:08:50,341 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:08:50,342 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:08:50,342 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:08:50,342 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:08:50,342 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:08:50,343 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-29 17:08:50,343 - INFO - Updated Core\Src\main.c
+2025-08-29 17:08:50,344 - INFO - Updated state with 1 new operations
+2025-08-29 17:08:50,344 - INFO - Processing completed
+2025-08-29 17:10:30,876 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:10:30,878 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:10:30,878 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:10:30,878 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:10:30,878 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:10:30,879 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:10:30,879 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:10:30,879 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-29 17:10:30,881 - INFO - Updated Core\Src\main.c
+2025-08-29 17:10:30,881 - INFO - Updated state with 1 new operations
+2025-08-29 17:10:30,881 - INFO - Processing completed

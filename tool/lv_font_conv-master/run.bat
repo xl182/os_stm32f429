@@ -1,0 +1,1 @@
+node "lv_font_conv.js" --bpp 4 --size 18 --format bin --font ../font/montserratMedium.ttf  --range 0x20-0xff -o ../converted_font/montserratMedium_18.bin
