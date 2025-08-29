@@ -20,7 +20,14 @@
 #include "ff.h"
 #include "usb_device.h"
 
-// custom files
+// freertos
+#include "FreeRTOSConfig.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "cmsis_os2.h"
+#include "queue.h"
 
+// custom files
+// #include "delay.h"
 
 #endif /* __USER_H__ */

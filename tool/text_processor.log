@@ -714,3 +714,108 @@
 2025-08-29 17:10:30,881 - INFO - Updated Core\Src\main.c
 2025-08-29 17:10:30,881 - INFO - Updated state with 1 new operations
 2025-08-29 17:10:30,881 - INFO - Processing completed
+2025-08-29 17:14:24,983 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:14:24,985 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:14:24,985 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:14:24,985 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:14:24,985 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:14:24,987 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:14:24,988 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:14:24,988 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 17:14:24,988 - INFO - Processing completed
+2025-08-29 17:24:05,172 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:24:05,173 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:24:05,173 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:24:05,174 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:24:05,174 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:24:05,174 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:24:05,175 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:24:05,175 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-29 17:24:05,175 - INFO - Updated Core\Src\main.c
+2025-08-29 17:24:05,178 - INFO - Updated state with 1 new operations
+2025-08-29 17:24:05,178 - INFO - Processing completed
+2025-08-29 17:24:59,878 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:24:59,879 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:24:59,879 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:24:59,879 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:24:59,879 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:24:59,879 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:24:59,880 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:24:59,880 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 17:24:59,880 - INFO - Processing completed
+2025-08-29 17:25:37,037 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:25:37,038 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:25:37,038 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:25:37,038 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:25:37,038 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:25:37,039 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:25:37,039 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:25:37,040 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 17:25:37,040 - INFO - Processing completed
+2025-08-29 17:26:08,077 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:26:08,078 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:26:08,079 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:26:08,079 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:26:08,079 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:26:08,079 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:26:08,079 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:26:08,080 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 17:26:08,080 - INFO - Processing completed
+2025-08-29 17:26:41,488 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:26:41,489 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:26:41,490 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:26:41,490 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:26:41,490 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:26:41,490 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:26:41,491 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:26:41,491 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 17:26:41,491 - INFO - Processing completed
+2025-08-29 17:27:40,938 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:27:40,939 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:27:40,939 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:27:40,939 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:27:40,939 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:27:40,939 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:27:40,940 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:27:40,941 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-29 17:27:40,941 - INFO - Updated Core\Src\main.c
+2025-08-29 17:27:40,942 - INFO - Updated state with 1 new operations
+2025-08-29 17:27:40,942 - INFO - Processing completed
+2025-08-29 17:29:00,645 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:29:00,646 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:29:00,646 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:29:00,646 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:29:00,647 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:29:00,647 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:29:00,647 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:29:00,648 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 17:29:00,648 - INFO - Processing completed
+2025-08-29 17:32:10,851 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:32:10,852 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:32:10,852 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:32:10,852 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:32:10,853 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:32:10,853 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:32:10,854 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:32:10,854 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-29 17:32:10,855 - INFO - Updated Core\Src\main.c
+2025-08-29 17:32:10,855 - INFO - Updated state with 1 new operations
+2025-08-29 17:32:10,856 - INFO - Processing completed
+2025-08-29 17:33:34,288 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:33:34,290 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:33:34,290 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:33:34,290 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:33:34,291 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:33:34,291 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:33:34,291 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:33:34,292 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 17:33:34,292 - INFO - Processing completed
+2025-08-29 17:34:32,525 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-29 17:34:32,526 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:34:32,526 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:34:32,526 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:34:32,526 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:34:32,526 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-29 17:34:32,528 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-29 17:34:32,528 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-29 17:34:32,528 - INFO - Processing completed

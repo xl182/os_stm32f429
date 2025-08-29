@@ -94,6 +94,9 @@
         "sstream": "c",
         "bitset": "c",
         "string_view": "c",
-        "initializer_list": "c"
+        "initializer_list": "c",
+        "cmsis_os.h": "c",
+        "freertos.h": "c",
+        "task.h": "c"
     }
 }
