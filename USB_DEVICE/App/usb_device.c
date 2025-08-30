@@ -54,7 +54,28 @@ USBD_HandleTypeDef hUsbDeviceFS;
  * -- Insert your external function declaration here --
  */
 /* USER CODE BEGIN 1 */
+void usb_reset() {
+    __HAL_RCC_GPIOA_CLK_ENABLE();
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    GPIO_InitStruct.Pin              = GPIO_PIN_12;
+    GPIO_InitStruct.Mode             = GPIO_MODE_OUTPUT_PP;
+    GPIO_InitStruct.Speed            = GPIO_SPEED_FREQ_VERY_HIGH;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_12, GPIO_PIN_RESET);
+    // HAL_Delay(100);
+}
 
+void MX_USB_DEVICE_DeInit(void) {
+    USBD_DeInit(&hUsbDeviceFS);
+    __HAL_RCC_GPIOA_CLK_DISABLE();
+
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    GPIO_InitStruct.Pin              = GPIO_PIN_11 | GPIO_PIN_12;
+    GPIO_InitStruct.Mode             = GPIO_MODE_ANALOG;
+    GPIO_InitStruct.Pull             = GPIO_NOPULL;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+    USBD_Stop(&hUsbDeviceFS);
+}
 /* USER CODE END 1 */
 
 /**

@@ -1007,3 +1007,21 @@
 2025-08-31 00:41:06,097 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
 2025-08-31 00:41:06,098 - INFO - Skipping modified file: Core\Src\main.c
 2025-08-31 00:41:06,098 - INFO - Processing completed
+2025-08-31 00:47:20,689 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 00:47:20,690 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 00:47:20,690 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 00:47:20,690 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 00:47:20,690 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 00:47:20,690 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 00:47:20,691 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 00:47:20,691 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 00:47:20,691 - INFO - Processing completed
+2025-08-31 00:47:42,879 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 00:47:42,880 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 00:47:42,880 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 00:47:42,881 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 00:47:42,881 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 00:47:42,881 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 00:47:42,881 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 00:47:42,882 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 00:47:42,882 - INFO - Processing completed
