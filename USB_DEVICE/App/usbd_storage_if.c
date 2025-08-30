@@ -196,7 +196,7 @@ int8_t STORAGE_GetCapacity_FS(uint8_t lun, uint32_t *block_num, uint16_t *block_
 
     *block_num  = hsd.SdCard.BlockNbr;  // 增加这行，用于获取SD卡的块数量
     *block_size = hsd.SdCard.BlockSize; // 增加这行，用于获取SD卡的块大小
-
+    printf("SD card capacity: %lu blocks of size %u bytes\r\n", *block_num, *block_size);
     return (USBD_OK);
   /* USER CODE END 3 */
 }
@@ -210,7 +210,9 @@ int8_t STORAGE_IsReady_FS(uint8_t lun)
 {
   /* USER CODE BEGIN 4 */
 
+  printf("SD card status: %d\r\n", SD_Driver.disk_status(lun));
     return (SD_Driver.disk_status(lun));
+    
 
   /* USER CODE END 4 */
 }
@@ -240,8 +242,9 @@ int8_t STORAGE_IsWriteProtected_FS(uint8_t lun)
 int8_t STORAGE_Read_FS(uint8_t lun, uint8_t *buf, uint32_t blk_addr, uint16_t blk_len)
 {
   /* USER CODE BEGIN 6 */
-    return (SD_Driver.disk_read(lun, buf, blk_addr, blk_len)); // 增加这行
-
+    DRESULT res = (SD_Driver.disk_read(lun, buf, blk_addr, blk_len));
+    printf("Read %d blocks starting from block address %lu on LUN %d: Result = %d\r\n", blk_len, blk_addr, lun, res);
+    return res;
   /* USER CODE END 6 */
 }
 

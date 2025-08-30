@@ -22,8 +22,17 @@ void StartInitTask(void *pvParameters) {
     } else {
         printf("Failed to mount SD card. Error: %d\n", res);
     }
+    
+    __HAL_RCC_GPIOA_CLK_ENABLE();
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    GPIO_InitStruct.Pin              = GPIO_PIN_12;
+    GPIO_InitStruct.Mode             = GPIO_MODE_OUTPUT_PP;
+    GPIO_InitStruct.Speed            = GPIO_SPEED_FREQ_VERY_HIGH;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_12, GPIO_PIN_RESET);
+    osDelay(100);
     MX_USB_DEVICE_Init();
-    vTaskDelete(NULL);
+    while(1);
 }
 
 int main() {

@@ -46,7 +46,7 @@ void MX_SDIO_SD_Init(void)
   hsd.Init.ClockPowerSave = SDIO_CLOCK_POWER_SAVE_DISABLE;
   hsd.Init.BusWide = SDIO_BUS_WIDE_4B;
   hsd.Init.HardwareFlowControl = SDIO_HARDWARE_FLOW_CONTROL_DISABLE;
-  hsd.Init.ClockDiv = 0;
+  hsd.Init.ClockDiv = 2;
   /* USER CODE BEGIN SDIO_Init 2 */
     hsd.Init.BusWide = SDIO_BUS_WIDE_1B;
     BSP_SD_Init();
@@ -125,7 +125,7 @@ void HAL_SD_MspInit(SD_HandleTypeDef* sdHandle)
     hdma_sdio_tx.Init.Priority = DMA_PRIORITY_LOW;
     hdma_sdio_tx.Init.FIFOMode = DMA_FIFOMODE_ENABLE;
     hdma_sdio_tx.Init.FIFOThreshold = DMA_FIFO_THRESHOLD_FULL;
-    hdma_sdio_tx.Init.MemBurst = DMA_MBURST_INC4;
+    hdma_sdio_tx.Init.MemBurst = DMA_MBURST_SINGLE;
     hdma_sdio_tx.Init.PeriphBurst = DMA_PBURST_INC4;
     if (HAL_DMA_Init(&hdma_sdio_tx) != HAL_OK)
     {
