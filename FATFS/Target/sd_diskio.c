@@ -214,6 +214,8 @@ Stat = STA_NOINIT;
       SDQueueID = osMessageQueueNew(QUEUE_SIZE, 2, NULL);
 #endif
       }
+      uint16_t msg = READ_CPLT_MSG; 
+      osMessageQueuePut(SDQueueID, (const void *)&msg, 0, 0);
 
       if (SDQueueID == NULL)
       {
@@ -290,8 +292,7 @@ DRESULT SD_read(BYTE lun, BYTE *buff, DWORD sector, UINT count)
         /* block until SDIO IP is ready or a timeout occur */
         while(osKernelSysTick() - timer <SD_TIMEOUT)
 #else
-          status = osMessageQueueGet(SDQueueID, (void *)&event, NULL, SD_TIMEOUT);
-          status = osOK, event = READ_CPLT_MSG;
+          status = osMessageQueueGet(SDQueueID, (void *)&event, NULL, 0);
           if ((status == osOK) && (event == READ_CPLT_MSG))
           {
             timer = osKernelGetTickCount();
@@ -461,8 +462,8 @@ DRESULT SD_write(BYTE lun, const BYTE *buff, DWORD sector, UINT count)
       if (event.value.v == WRITE_CPLT_MSG)
       {
 #else
-    status = osMessageQueueGet(SDQueueID, (void *)&event, NULL, SD_TIMEOUT);
-    status = osOK, event = WRITE_CPLT_MSG;
+    status = osMessageQueueGet(SDQueueID, (void *)&event, NULL, 0);
+    
     if ((status == osOK) && (event == WRITE_CPLT_MSG))
     {
 #endif
