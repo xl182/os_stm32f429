@@ -291,6 +291,7 @@ DRESULT SD_read(BYTE lun, BYTE *buff, DWORD sector, UINT count)
         while(osKernelSysTick() - timer <SD_TIMEOUT)
 #else
           status = osMessageQueueGet(SDQueueID, (void *)&event, NULL, SD_TIMEOUT);
+          status = osOK, event = READ_CPLT_MSG;
           if ((status == osOK) && (event == READ_CPLT_MSG))
           {
             timer = osKernelGetTickCount();
@@ -461,6 +462,7 @@ DRESULT SD_write(BYTE lun, const BYTE *buff, DWORD sector, UINT count)
       {
 #else
     status = osMessageQueueGet(SDQueueID, (void *)&event, NULL, SD_TIMEOUT);
+    status = osOK, event = WRITE_CPLT_MSG;
     if ((status == osOK) && (event == WRITE_CPLT_MSG))
     {
 #endif
