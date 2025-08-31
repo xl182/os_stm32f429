@@ -1,5 +1,5 @@
 #include "lcd.h"
-#if USE_LTED_LCD
+#if USE_LTDC_LCD
 #include "dma2d.h"
 #include "ltdc.h"
 

@@ -1,0 +1,1 @@
+GEN_CSRCS += _moutain_RGB565_1024x600.c _temperature_RGB565A8_33x32.c _humidity_RGB565A8_32x32.c _savset_RGB565A8_64x64.c _serial_RGB565A8_64x64.c _paint_RGB565A8_64x64.c _color_RGB565A8_50x50.c _huabi_RGB565A8_50x50.c

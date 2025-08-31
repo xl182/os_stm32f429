@@ -21,7 +21,9 @@
 #include "ltdc.h"
 
 /* USER CODE BEGIN 0 */
-
+#include "dma2d.h"
+#include "sections.h"
+uint16_t frame_buffer[SCREEN_WIDTH * SCREEN_HEIGHT] LCD_FRAMEBUF ALIGN(32);
 /* USER CODE END 0 */
 
 LTDC_HandleTypeDef hltdc;

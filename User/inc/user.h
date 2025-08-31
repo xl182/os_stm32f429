@@ -27,6 +27,16 @@
 #include "cmsis_os2.h"
 #include "queue.h"
 
+// Gui files
+#include "custom.h"
+#include "events_init.h"
+#include "gui.h"
+#include "gui_guider.h"
+#include "lv_port_disp.h"
+#include "lv_port_fs.h"
+#include "lv_port_indev.h"
+#include "widgets_init.h"
+
 // custom files
 #include "delay.h"
 

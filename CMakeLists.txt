@@ -75,14 +75,13 @@ include_directories(
     User/Inc
     .
     lvgl/porting
-    Gui/lvgl
-    Gui/lvgl/src/core
-    Gui/lvgl/src/misc
+    lvgl
+    lvgl/src/core
+    lvgl/src/misc
     Gui/generated
     Gui/generated/guider_fonts
     Gui/generated/guider_customer_fonts
     Gui/custom
-    lvgl/
     USB_DEVICE/App
     USB_DEVICE/Target
     Middlewares/Third_Party/FatFs/src
@@ -104,10 +103,10 @@ file(GLOB_RECURSE SOURCES
     "Core/*.*"
     "Drivers/*.*"
     "User/*.*"
-    "Gui/lvgl/src/*.*"
+    # "Gui/lvgl/src/*.*"
     "Gui/generated/guider_customer_fonts/*.*"
     "Gui/custom/*.*"
-    "lvgl/porting/*.*"
+    # "lvgl/porting/*.*"
     "Middlewares/Third_Party/FatFs/*.*"
     "Middlewares/ST/STM32_USB_Device_Library/Core/Src/*.*"
     "Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/*.*"
@@ -118,7 +117,6 @@ file(GLOB_RECURSE SOURCES
     "USB_DEVICE/Target/*.*"
     "startup_stm32f429xx.s"
     "newlib_lock_glue.c"
-    "stm32_lock.h"
 )
 
 file(GLOB Guider_FILES "Gui/generated/*.*")
@@ -133,4 +131,4 @@ add_link_options(-T ${LINKER_SCRIPT})
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 
-# target_link_libraries(${PROJECT_NAME}.elf PRIVATE lvgl)
+target_link_libraries(${PROJECT_NAME}.elf PRIVATE ${CMAKE_SOURCE_DIR}/lvgl/build/liblvgl.a)

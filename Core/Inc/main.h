@@ -73,7 +73,8 @@ extern void MX_FREERTOS_Init(void);
 #define T_SDA_GPIO_Port GPIOI
 #define LCD_BL_Pin GPIO_PIN_5
 #define LCD_BL_GPIO_Port GPIOB
-
+#define SCREEN_WIDTH  600
+#define SCREEN_HEIGHT 1024
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

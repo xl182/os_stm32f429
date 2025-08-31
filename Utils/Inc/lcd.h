@@ -2,7 +2,7 @@
 #define __LCD_H
 
 #include "setting.h"
-#if USE_LTED_LCD
+#if USE_LTDC_LCD
 
 #include "ltdc.h"
 #include "main.h"

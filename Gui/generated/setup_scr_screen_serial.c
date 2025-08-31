@@ -1,0 +1,340 @@
+/*
+* Copyright 2025 NXP
+* NXP Proprietary. This software is owned or controlled by NXP and may only be used strictly in
+* accordance with the applicable license terms. By expressly accepting such terms or by downloading, installing,
+* activating and/or otherwise using the software, you are agreeing that you have read, and that you agree to
+* comply with and are bound by, such license terms.  If you do not agree to be bound by the applicable license
+* terms, then you may not retain, install, activate or otherwise use the software.
+*/
+
+#include "lvgl.h"
+#include <stdio.h>
+#include "gui_guider.h"
+#include "events_init.h"
+#include "widgets_init.h"
+#include "custom.h"
+
+
+
+void setup_scr_screen_serial(lv_ui *ui)
+{
+    //Write codes screen_serial
+    ui->screen_serial = lv_obj_create(NULL);
+    lv_obj_set_size(ui->screen_serial, 1024, 600);
+    lv_obj_set_scrollbar_mode(ui->screen_serial, LV_SCROLLBAR_MODE_OFF);
+
+    //Write style for screen_serial, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->screen_serial, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write codes screen_serial_btn_clear
+    ui->screen_serial_btn_clear = lv_button_create(ui->screen_serial);
+    lv_obj_set_pos(ui->screen_serial_btn_clear, 776, 550);
+    lv_obj_set_size(ui->screen_serial_btn_clear, 100, 50);
+    ui->screen_serial_btn_clear_label = lv_label_create(ui->screen_serial_btn_clear);
+    lv_label_set_text(ui->screen_serial_btn_clear_label, "clear");
+    lv_label_set_long_mode(ui->screen_serial_btn_clear_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->screen_serial_btn_clear_label, LV_ALIGN_CENTER, 0, 0);
+    lv_obj_set_style_pad_all(ui->screen_serial_btn_clear, 0, LV_STATE_DEFAULT);
+    lv_obj_set_width(ui->screen_serial_btn_clear_label, LV_PCT(100));
+
+    //Write style for screen_serial_btn_clear, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->screen_serial_btn_clear, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->screen_serial_btn_clear, lv_color_hex(0x2195f6), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->screen_serial_btn_clear, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->screen_serial_btn_clear, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->screen_serial_btn_clear, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->screen_serial_btn_clear, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->screen_serial_btn_clear, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->screen_serial_btn_clear, montserratMedium_16, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->screen_serial_btn_clear, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->screen_serial_btn_clear, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write codes screen_serial_btn_paste
+    ui->screen_serial_btn_paste = lv_button_create(ui->screen_serial);
+    lv_obj_set_pos(ui->screen_serial_btn_paste, 150, 550);
+    lv_obj_set_size(ui->screen_serial_btn_paste, 100, 50);
+    ui->screen_serial_btn_paste_label = lv_label_create(ui->screen_serial_btn_paste);
+    lv_label_set_text(ui->screen_serial_btn_paste_label, "paste");
+    lv_label_set_long_mode(ui->screen_serial_btn_paste_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->screen_serial_btn_paste_label, LV_ALIGN_CENTER, 0, 0);
+    lv_obj_set_style_pad_all(ui->screen_serial_btn_paste, 0, LV_STATE_DEFAULT);
+    lv_obj_set_width(ui->screen_serial_btn_paste_label, LV_PCT(100));
+
+    //Write style for screen_serial_btn_paste, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->screen_serial_btn_paste, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->screen_serial_btn_paste, lv_color_hex(0x2195f6), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->screen_serial_btn_paste, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->screen_serial_btn_paste, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->screen_serial_btn_paste, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->screen_serial_btn_paste, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->screen_serial_btn_paste, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->screen_serial_btn_paste, montserratMedium_16, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->screen_serial_btn_paste, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->screen_serial_btn_paste, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write codes screen_serial_ta_receive
+    ui->screen_serial_ta_receive = lv_textarea_create(ui->screen_serial);
+    lv_obj_set_pos(ui->screen_serial_ta_receive, 0, 75);
+    lv_obj_set_size(ui->screen_serial_ta_receive, 1024, 475);
+    lv_textarea_set_text(ui->screen_serial_ta_receive, "");
+    lv_textarea_set_placeholder_text(ui->screen_serial_ta_receive, "");
+    lv_textarea_set_password_bullet(ui->screen_serial_ta_receive, "*");
+    lv_textarea_set_password_mode(ui->screen_serial_ta_receive, false);
+    lv_textarea_set_one_line(ui->screen_serial_ta_receive, false);
+    lv_textarea_set_accepted_chars(ui->screen_serial_ta_receive, "");
+    lv_textarea_set_max_length(ui->screen_serial_ta_receive, 32);
+#if LV_USE_KEYBOARD
+    lv_obj_add_event_cb(ui->screen_serial_ta_receive, ta_event_cb, LV_EVENT_ALL, ui->g_kb_top_layer);
+#endif
+
+    //Write style for screen_serial_ta_receive, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_text_color(ui->screen_serial_ta_receive, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->screen_serial_ta_receive, montserratMedium_12, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->screen_serial_ta_receive, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_letter_space(ui->screen_serial_ta_receive, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->screen_serial_ta_receive, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_opa(ui->screen_serial_ta_receive, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->screen_serial_ta_receive, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->screen_serial_ta_receive, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->screen_serial_ta_receive, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_opa(ui->screen_serial_ta_receive, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_color(ui->screen_serial_ta_receive, lv_color_hex(0xe6e6e6), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_side(ui->screen_serial_ta_receive, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->screen_serial_ta_receive, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->screen_serial_ta_receive, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->screen_serial_ta_receive, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->screen_serial_ta_receive, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->screen_serial_ta_receive, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style for screen_serial_ta_receive, Part: LV_PART_SCROLLBAR, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->screen_serial_ta_receive, 255, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->screen_serial_ta_receive, lv_color_hex(0x2195f6), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->screen_serial_ta_receive, LV_GRAD_DIR_NONE, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->screen_serial_ta_receive, 0, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+
+    //Write codes screen_serial_ddlist_baudrate
+    ui->screen_serial_ddlist_baudrate = lv_dropdown_create(ui->screen_serial);
+    lv_obj_set_pos(ui->screen_serial_ddlist_baudrate, 5, 42);
+    lv_obj_set_size(ui->screen_serial_ddlist_baudrate, 130, 30);
+    lv_dropdown_set_options(ui->screen_serial_ddlist_baudrate, "115200\n9600\n38400\n4800");
+
+    //Write style for screen_serial_ddlist_baudrate, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_text_color(ui->screen_serial_ddlist_baudrate, lv_color_hex(0x0D3055), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->screen_serial_ddlist_baudrate, montserratMedium_12, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->screen_serial_ddlist_baudrate, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->screen_serial_ddlist_baudrate, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_opa(ui->screen_serial_ddlist_baudrate, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_color(ui->screen_serial_ddlist_baudrate, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_side(ui->screen_serial_ddlist_baudrate, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->screen_serial_ddlist_baudrate, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->screen_serial_ddlist_baudrate, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->screen_serial_ddlist_baudrate, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->screen_serial_ddlist_baudrate, 3, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_opa(ui->screen_serial_ddlist_baudrate, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->screen_serial_ddlist_baudrate, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->screen_serial_ddlist_baudrate, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->screen_serial_ddlist_baudrate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style state: LV_STATE_CHECKED for &style_screen_serial_ddlist_baudrate_extra_list_selected_checked
+    static lv_style_t style_screen_serial_ddlist_baudrate_extra_list_selected_checked;
+    ui_init_style(&style_screen_serial_ddlist_baudrate_extra_list_selected_checked);
+
+    lv_style_set_border_width(&style_screen_serial_ddlist_baudrate_extra_list_selected_checked, 1);
+    lv_style_set_border_opa(&style_screen_serial_ddlist_baudrate_extra_list_selected_checked, 255);
+    lv_style_set_border_color(&style_screen_serial_ddlist_baudrate_extra_list_selected_checked, lv_color_hex(0xe1e6ee));
+    lv_style_set_border_side(&style_screen_serial_ddlist_baudrate_extra_list_selected_checked, LV_BORDER_SIDE_FULL);
+    lv_style_set_radius(&style_screen_serial_ddlist_baudrate_extra_list_selected_checked, 3);
+    lv_style_set_bg_opa(&style_screen_serial_ddlist_baudrate_extra_list_selected_checked, 255);
+    lv_style_set_bg_color(&style_screen_serial_ddlist_baudrate_extra_list_selected_checked, lv_color_hex(0x00a1b5));
+    lv_style_set_bg_grad_dir(&style_screen_serial_ddlist_baudrate_extra_list_selected_checked, LV_GRAD_DIR_NONE);
+    lv_obj_add_style(lv_dropdown_get_list(ui->screen_serial_ddlist_baudrate), &style_screen_serial_ddlist_baudrate_extra_list_selected_checked, LV_PART_SELECTED|LV_STATE_CHECKED);
+
+    //Write style state: LV_STATE_DEFAULT for &style_screen_serial_ddlist_baudrate_extra_list_main_default
+    static lv_style_t style_screen_serial_ddlist_baudrate_extra_list_main_default;
+    ui_init_style(&style_screen_serial_ddlist_baudrate_extra_list_main_default);
+
+    lv_style_set_max_height(&style_screen_serial_ddlist_baudrate_extra_list_main_default, 90);
+    lv_style_set_text_color(&style_screen_serial_ddlist_baudrate_extra_list_main_default, lv_color_hex(0x0D3055));
+    lv_style_set_text_font(&style_screen_serial_ddlist_baudrate_extra_list_main_default, montserratMedium_12);
+    lv_style_set_text_opa(&style_screen_serial_ddlist_baudrate_extra_list_main_default, 255);
+    lv_style_set_border_width(&style_screen_serial_ddlist_baudrate_extra_list_main_default, 1);
+    lv_style_set_border_opa(&style_screen_serial_ddlist_baudrate_extra_list_main_default, 255);
+    lv_style_set_border_color(&style_screen_serial_ddlist_baudrate_extra_list_main_default, lv_color_hex(0xe1e6ee));
+    lv_style_set_border_side(&style_screen_serial_ddlist_baudrate_extra_list_main_default, LV_BORDER_SIDE_FULL);
+    lv_style_set_radius(&style_screen_serial_ddlist_baudrate_extra_list_main_default, 3);
+    lv_style_set_bg_opa(&style_screen_serial_ddlist_baudrate_extra_list_main_default, 255);
+    lv_style_set_bg_color(&style_screen_serial_ddlist_baudrate_extra_list_main_default, lv_color_hex(0xffffff));
+    lv_style_set_bg_grad_dir(&style_screen_serial_ddlist_baudrate_extra_list_main_default, LV_GRAD_DIR_NONE);
+    lv_obj_add_style(lv_dropdown_get_list(ui->screen_serial_ddlist_baudrate), &style_screen_serial_ddlist_baudrate_extra_list_main_default, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style state: LV_STATE_DEFAULT for &style_screen_serial_ddlist_baudrate_extra_list_scrollbar_default
+    static lv_style_t style_screen_serial_ddlist_baudrate_extra_list_scrollbar_default;
+    ui_init_style(&style_screen_serial_ddlist_baudrate_extra_list_scrollbar_default);
+
+    lv_style_set_radius(&style_screen_serial_ddlist_baudrate_extra_list_scrollbar_default, 3);
+    lv_style_set_bg_opa(&style_screen_serial_ddlist_baudrate_extra_list_scrollbar_default, 255);
+    lv_style_set_bg_color(&style_screen_serial_ddlist_baudrate_extra_list_scrollbar_default, lv_color_hex(0x00ff00));
+    lv_style_set_bg_grad_dir(&style_screen_serial_ddlist_baudrate_extra_list_scrollbar_default, LV_GRAD_DIR_NONE);
+    lv_obj_add_style(lv_dropdown_get_list(ui->screen_serial_ddlist_baudrate), &style_screen_serial_ddlist_baudrate_extra_list_scrollbar_default, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+
+    //Write codes screen_serial_ta_send
+    ui->screen_serial_ta_send = lv_textarea_create(ui->screen_serial);
+    lv_obj_set_pos(ui->screen_serial_ta_send, 230, 1);
+    lv_obj_set_size(ui->screen_serial_ta_send, 700, 70);
+    lv_textarea_set_text(ui->screen_serial_ta_send, "");
+    lv_textarea_set_placeholder_text(ui->screen_serial_ta_send, "");
+    lv_textarea_set_password_bullet(ui->screen_serial_ta_send, "*");
+    lv_textarea_set_password_mode(ui->screen_serial_ta_send, false);
+    lv_textarea_set_one_line(ui->screen_serial_ta_send, false);
+    lv_textarea_set_accepted_chars(ui->screen_serial_ta_send, "");
+    lv_textarea_set_max_length(ui->screen_serial_ta_send, 32);
+#if LV_USE_KEYBOARD
+    lv_obj_add_event_cb(ui->screen_serial_ta_send, ta_event_cb, LV_EVENT_ALL, ui->g_kb_top_layer);
+#endif
+
+    //Write style for screen_serial_ta_send, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_text_color(ui->screen_serial_ta_send, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->screen_serial_ta_send, montserratMedium_12, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->screen_serial_ta_send, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_letter_space(ui->screen_serial_ta_send, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->screen_serial_ta_send, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_opa(ui->screen_serial_ta_send, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->screen_serial_ta_send, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->screen_serial_ta_send, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->screen_serial_ta_send, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_opa(ui->screen_serial_ta_send, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_color(ui->screen_serial_ta_send, lv_color_hex(0xe6e6e6), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_side(ui->screen_serial_ta_send, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->screen_serial_ta_send, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->screen_serial_ta_send, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->screen_serial_ta_send, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->screen_serial_ta_send, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->screen_serial_ta_send, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style for screen_serial_ta_send, Part: LV_PART_SCROLLBAR, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->screen_serial_ta_send, 255, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->screen_serial_ta_send, lv_color_hex(0x2195f6), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->screen_serial_ta_send, LV_GRAD_DIR_NONE, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->screen_serial_ta_send, 0, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+
+    //Write codes screen_serial_btn_back
+    ui->screen_serial_btn_back = lv_button_create(ui->screen_serial);
+    lv_obj_set_pos(ui->screen_serial_btn_back, 947, 19);
+    lv_obj_set_size(ui->screen_serial_btn_back, 64, 34);
+    ui->screen_serial_btn_back_label = lv_label_create(ui->screen_serial_btn_back);
+    lv_label_set_text(ui->screen_serial_btn_back_label, "back");
+    lv_label_set_long_mode(ui->screen_serial_btn_back_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->screen_serial_btn_back_label, LV_ALIGN_CENTER, 0, 0);
+    lv_obj_set_style_pad_all(ui->screen_serial_btn_back, 0, LV_STATE_DEFAULT);
+    lv_obj_set_width(ui->screen_serial_btn_back_label, LV_PCT(100));
+
+    //Write style for screen_serial_btn_back, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->screen_serial_btn_back, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->screen_serial_btn_back, lv_color_hex(0x2195f6), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->screen_serial_btn_back, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->screen_serial_btn_back, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->screen_serial_btn_back, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->screen_serial_btn_back, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->screen_serial_btn_back, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->screen_serial_btn_back, montserratMedium_16, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->screen_serial_btn_back, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->screen_serial_btn_back, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write codes screen_serial_btn_send
+    ui->screen_serial_btn_send = lv_button_create(ui->screen_serial);
+    lv_obj_set_pos(ui->screen_serial_btn_send, 150, 19);
+    lv_obj_set_size(ui->screen_serial_btn_send, 64, 34);
+    ui->screen_serial_btn_send_label = lv_label_create(ui->screen_serial_btn_send);
+    lv_label_set_text(ui->screen_serial_btn_send_label, "send");
+    lv_label_set_long_mode(ui->screen_serial_btn_send_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->screen_serial_btn_send_label, LV_ALIGN_CENTER, 0, 0);
+    lv_obj_set_style_pad_all(ui->screen_serial_btn_send, 0, LV_STATE_DEFAULT);
+    lv_obj_set_width(ui->screen_serial_btn_send_label, LV_PCT(100));
+
+    //Write style for screen_serial_btn_send, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->screen_serial_btn_send, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->screen_serial_btn_send, lv_color_hex(0x2195f6), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->screen_serial_btn_send, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->screen_serial_btn_send, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->screen_serial_btn_send, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->screen_serial_btn_send, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->screen_serial_btn_send, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->screen_serial_btn_send, montserratMedium_16, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->screen_serial_btn_send, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->screen_serial_btn_send, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write codes screen_serial_ddlist_com
+    ui->screen_serial_ddlist_com = lv_dropdown_create(ui->screen_serial);
+    lv_obj_set_pos(ui->screen_serial_ddlist_com, 5, 5);
+    lv_obj_set_size(ui->screen_serial_ddlist_com, 130, 30);
+    lv_dropdown_set_options(ui->screen_serial_ddlist_com, "USART1\nUSART2");
+
+    //Write style for screen_serial_ddlist_com, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_text_color(ui->screen_serial_ddlist_com, lv_color_hex(0x0D3055), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->screen_serial_ddlist_com, montserratMedium_12, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->screen_serial_ddlist_com, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->screen_serial_ddlist_com, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_opa(ui->screen_serial_ddlist_com, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_color(ui->screen_serial_ddlist_com, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_side(ui->screen_serial_ddlist_com, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->screen_serial_ddlist_com, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->screen_serial_ddlist_com, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->screen_serial_ddlist_com, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->screen_serial_ddlist_com, 3, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_opa(ui->screen_serial_ddlist_com, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->screen_serial_ddlist_com, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->screen_serial_ddlist_com, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->screen_serial_ddlist_com, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style state: LV_STATE_CHECKED for &style_screen_serial_ddlist_com_extra_list_selected_checked
+    static lv_style_t style_screen_serial_ddlist_com_extra_list_selected_checked;
+    ui_init_style(&style_screen_serial_ddlist_com_extra_list_selected_checked);
+
+    lv_style_set_border_width(&style_screen_serial_ddlist_com_extra_list_selected_checked, 1);
+    lv_style_set_border_opa(&style_screen_serial_ddlist_com_extra_list_selected_checked, 255);
+    lv_style_set_border_color(&style_screen_serial_ddlist_com_extra_list_selected_checked, lv_color_hex(0xe1e6ee));
+    lv_style_set_border_side(&style_screen_serial_ddlist_com_extra_list_selected_checked, LV_BORDER_SIDE_FULL);
+    lv_style_set_radius(&style_screen_serial_ddlist_com_extra_list_selected_checked, 3);
+    lv_style_set_bg_opa(&style_screen_serial_ddlist_com_extra_list_selected_checked, 255);
+    lv_style_set_bg_color(&style_screen_serial_ddlist_com_extra_list_selected_checked, lv_color_hex(0x00a1b5));
+    lv_style_set_bg_grad_dir(&style_screen_serial_ddlist_com_extra_list_selected_checked, LV_GRAD_DIR_NONE);
+    lv_obj_add_style(lv_dropdown_get_list(ui->screen_serial_ddlist_com), &style_screen_serial_ddlist_com_extra_list_selected_checked, LV_PART_SELECTED|LV_STATE_CHECKED);
+
+    //Write style state: LV_STATE_DEFAULT for &style_screen_serial_ddlist_com_extra_list_main_default
+    static lv_style_t style_screen_serial_ddlist_com_extra_list_main_default;
+    ui_init_style(&style_screen_serial_ddlist_com_extra_list_main_default);
+
+    lv_style_set_max_height(&style_screen_serial_ddlist_com_extra_list_main_default, 90);
+    lv_style_set_text_color(&style_screen_serial_ddlist_com_extra_list_main_default, lv_color_hex(0x0D3055));
+    lv_style_set_text_font(&style_screen_serial_ddlist_com_extra_list_main_default, montserratMedium_12);
+    lv_style_set_text_opa(&style_screen_serial_ddlist_com_extra_list_main_default, 255);
+    lv_style_set_border_width(&style_screen_serial_ddlist_com_extra_list_main_default, 1);
+    lv_style_set_border_opa(&style_screen_serial_ddlist_com_extra_list_main_default, 255);
+    lv_style_set_border_color(&style_screen_serial_ddlist_com_extra_list_main_default, lv_color_hex(0xe1e6ee));
+    lv_style_set_border_side(&style_screen_serial_ddlist_com_extra_list_main_default, LV_BORDER_SIDE_FULL);
+    lv_style_set_radius(&style_screen_serial_ddlist_com_extra_list_main_default, 3);
+    lv_style_set_bg_opa(&style_screen_serial_ddlist_com_extra_list_main_default, 255);
+    lv_style_set_bg_color(&style_screen_serial_ddlist_com_extra_list_main_default, lv_color_hex(0xffffff));
+    lv_style_set_bg_grad_dir(&style_screen_serial_ddlist_com_extra_list_main_default, LV_GRAD_DIR_NONE);
+    lv_obj_add_style(lv_dropdown_get_list(ui->screen_serial_ddlist_com), &style_screen_serial_ddlist_com_extra_list_main_default, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style state: LV_STATE_DEFAULT for &style_screen_serial_ddlist_com_extra_list_scrollbar_default
+    static lv_style_t style_screen_serial_ddlist_com_extra_list_scrollbar_default;
+    ui_init_style(&style_screen_serial_ddlist_com_extra_list_scrollbar_default);
+
+    lv_style_set_radius(&style_screen_serial_ddlist_com_extra_list_scrollbar_default, 3);
+    lv_style_set_bg_opa(&style_screen_serial_ddlist_com_extra_list_scrollbar_default, 255);
+    lv_style_set_bg_color(&style_screen_serial_ddlist_com_extra_list_scrollbar_default, lv_color_hex(0x00ff00));
+    lv_style_set_bg_grad_dir(&style_screen_serial_ddlist_com_extra_list_scrollbar_default, LV_GRAD_DIR_NONE);
+    lv_obj_add_style(lv_dropdown_get_list(ui->screen_serial_ddlist_com), &style_screen_serial_ddlist_com_extra_list_scrollbar_default, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+
+    //The custom code of screen_serial.
+
+
+    //Update current screen layout.
+    lv_obj_update_layout(ui->screen_serial);
+
+    //Init events for screen.
+    events_init_screen_serial(ui);
+}
+// modified

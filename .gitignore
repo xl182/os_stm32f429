@@ -1,3 +1,16 @@
 build/
+!build/OS.elf
+!build/OS.map
 cmake/
+
 .vscode/PythonImportHelper-v2-Completion.json
+
+lvgl/build
+!lvgl/build/liblvgl.a
+
+# Gui/temp
+# Gui/lvgl-simulator
+# Gui/ports
+# Gui/lvgl
+# Gui/import
+# Gui/lib

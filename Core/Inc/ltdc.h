@@ -35,7 +35,7 @@ extern "C" {
 extern LTDC_HandleTypeDef hltdc;
 
 /* USER CODE BEGIN Private defines */
-
+extern uint16_t frame_buffer[SCREEN_WIDTH * SCREEN_HEIGHT];
 /* USER CODE END Private defines */
 
 void MX_LTDC_Init(void);

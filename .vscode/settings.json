@@ -97,6 +97,13 @@
         "initializer_list": "c",
         "cmsis_os.h": "c",
         "freertos.h": "c",
-        "task.h": "c"
+        "task.h": "c",
+        "ff.h": "c",
+        "ffconf.h": "c",
+        "integer.h": "c",
+        "stm32f4xx.h": "c",
+        "setting.h": "c",
+        "reent.h": "c",
+        "errno.h": "c"
     }
 }

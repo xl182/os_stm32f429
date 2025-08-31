@@ -28,8 +28,27 @@ void StartInitTask(void *pvParameters) {
     } else {
         printf("Failed to mount SD card. Error: %d\n", res);
     }
+    
+    lv_init();
+    printf("lv init finished\r\n");
+    lv_port_disp_init();
+    printf("lv disp init finished\r\n");
+    lv_port_indev_init();
+    printf("lv index init finished\r\n");
+    lv_port_fs_init();
+    printf("lv fs init finished\r\n");
+
+    load_font();
+    gui_init();
+    setup_ui(ui);
+    events_init(ui);
+    custom_init(ui);
+    printf("lvgl init finished\r\n");
+
     usb_reset();
     MX_USB_DEVICE_Init();
-    while (1)
-        ;
+    while (1) {
+        lv_timer_handler();
+        osDelay(1);
+    }
 }
