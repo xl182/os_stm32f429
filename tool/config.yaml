@@ -38,8 +38,15 @@ files:
       - type: "insert_after"
         pattern: "/\\*\\* Enable the Alarm A\\s*\\n\\s*\\*/"
         insert_text: "  alarm:"
+
   - path: "Core\\Src\\main.c"
     operations:
       - type: "replace"
         pattern: "void HAL_TIM_PeriodElapsedCallback"
         replacement: "__weak void HAL_TIM_PeriodElapsedCallback"
+
+  - path: "FATFS\\Target\\sd_diskio.c"
+    operations:
+      - type: "insert_after"
+        pattern: "SDQueueID = osMessageQueueNew\\(QUEUE_SIZE, 2, NULL\\);"
+        insert_text: "\n      const uint16_t msg = READ_CPLT_MSG; \n      osMessageQueuePut(SDQueueID, (const void *)&msg, 0, 0);"

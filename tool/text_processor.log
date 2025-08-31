@@ -1025,3 +1025,36 @@
 2025-08-31 00:47:42,881 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
 2025-08-31 00:47:42,882 - INFO - Skipping modified file: Core\Src\main.c
 2025-08-31 00:47:42,882 - INFO - Processing completed
+2025-08-31 09:48:10,648 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 09:48:10,649 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:48:10,649 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:48:10,650 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:48:10,650 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:48:10,650 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:48:10,650 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 09:48:10,650 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-31 09:48:10,652 - INFO - Updated Core\Src\main.c
+2025-08-31 09:48:10,652 - INFO - Inserted text after pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' in FATFS\Target\sd_diskio.c
+2025-08-31 09:48:10,656 - INFO - Updated FATFS\Target\sd_diskio.c
+2025-08-31 09:48:10,657 - INFO - Updated state with 2 new operations
+2025-08-31 09:48:10,657 - INFO - Processing completed
+2025-08-31 09:53:08,076 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 09:53:08,077 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:53:08,077 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:53:08,078 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:53:08,078 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:53:08,078 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:53:08,078 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 09:53:08,078 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 09:53:08,079 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 09:53:08,079 - INFO - Processing completed
+2025-08-31 09:54:16,915 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 09:54:16,916 - ERROR - File not found: Gui/generated/setup_scr_screen.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:54:16,916 - ERROR - File not found: Gui/generated/setup_scr_screen_file.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:54:16,916 - ERROR - File not found: Gui/generated/setup_scr_screen_paint.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:54:16,916 - ERROR - File not found: Gui/generated/setup_scr_screen_serial.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:54:16,917 - ERROR - File not found: Gui/generated/gui_guider.c, current work dir: D:\Program\STM32\F429\OS
+2025-08-31 09:54:16,917 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 09:54:16,917 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 09:54:16,917 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 09:54:16,919 - INFO - Processing completed
