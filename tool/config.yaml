@@ -49,4 +49,8 @@ files:
     operations:
       - type: "insert_after"
         pattern: "SDQueueID = osMessageQueueNew\\(QUEUE_SIZE, 2, NULL\\);"
-        insert_text: "\n      const uint16_t msg = READ_CPLT_MSG; \n      osMessageQueuePut(SDQueueID, (const void *)&msg, 0, 0);"
+        insert_text: "\n      uint16_t msg = READ_CPLT_MSG; \n      osMessageQueuePut(SDQueueID, (void *)&msg, 0, 0);"
+      - type: "replace"
+        pattern: "status = osMessageQueueGet\\(SDQueueID, \\(void \\*\\)&event, NULL, SD_TIMEOUT\\);"
+        replacement: "status = osMessageQueueGet(SDQueueID, (void *)&event, NULL, 0);"
+        

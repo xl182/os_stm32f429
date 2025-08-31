@@ -57,6 +57,22 @@ extern void MX_FREERTOS_Init(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define T_RST_Pin GPIO_PIN_8
+#define T_RST_GPIO_Port GPIOI
+#define TEMP_BUS_Pin GPIO_PIN_1
+#define TEMP_BUS_GPIO_Port GPIOC
+#define LED_Pin GPIO_PIN_0
+#define LED_GPIO_Port GPIOB
+#define T_SCK_Pin GPIO_PIN_6
+#define T_SCK_GPIO_Port GPIOH
+#define T_INT_Pin GPIO_PIN_7
+#define T_INT_GPIO_Port GPIOH
+#define WS_DI_Pin GPIO_PIN_8
+#define WS_DI_GPIO_Port GPIOA
+#define T_SDA_Pin GPIO_PIN_3
+#define T_SDA_GPIO_Port GPIOI
+#define LCD_BL_Pin GPIO_PIN_5
+#define LCD_BL_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
