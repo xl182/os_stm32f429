@@ -6,15 +6,15 @@
 #define SETTINGS_H
 
 #define USE_AT24C02 0
-#define USE_DS18B20 0
+#define USE_DS18B20 1
 #define USE_LCD 0
-#define USE_WS2812B 0
-#define USE_AHT10 0
+#define USE_WS2812B 1
+#define USE_AHT10 1
 #define USE_EPD 0
 
-#define USE_GT911 0
-#define USE_QMC5883L 0
-#define USE_MPU6050 0
-#define USE_LTDC_LCD 0
-#define USE_LVGL 0
+#define USE_GT911 1
+#define USE_QMC5883L 1
+#define USE_MPU6050 1
+#define USE_LTDC_LCD 1
+#define USE_LVGL 1
 #endif // SETTINGS_H
