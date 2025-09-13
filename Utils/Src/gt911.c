@@ -61,6 +61,8 @@ void gt911_init(void) {
 
     if (retry == 0) {
         printf("GT911 not detected!\r\n");
+    } else {
+        printf("GT911 detected, PID: %s\r\n", id);
     }
 
     // 发送配置命令

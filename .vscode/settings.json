@@ -104,6 +104,7 @@
         "stm32f4xx.h": "c",
         "setting.h": "c",
         "reent.h": "c",
-        "errno.h": "c"
+        "errno.h": "c",
+        "condition_variable": "c"
     }
 }

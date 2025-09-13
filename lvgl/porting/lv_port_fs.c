@@ -38,7 +38,6 @@ static FATFS fs;
 void lv_port_fs_init(void) {
     MX_SDIO_SD_Init();
     MX_FATFS_Init();
-    BSP_SD_Init();
     fs_init();
 
     static lv_fs_drv_t fs_drv;

@@ -101,7 +101,8 @@ static volatile DSTATUS Stat = STA_NOINIT;
 #if (osCMSIS <= 0x20000U)
 static osMessageQId SDQueueID = NULL;
 #else
-static osMessageQueueId_t SDQueueID = NULL;
+static osMessageQueueId_t write_SDQueueID = NULL;
+static osMessageQueueId_t read_SDQueueID = NULL;
 #endif
 /* Private function prototypes -----------------------------------------------*/
 static DSTATUS SD_CheckStatus(BYTE lun);
@@ -205,19 +206,22 @@ Stat = STA_NOINIT;
 
     if (Stat != STA_NOINIT)
     {
-      if (SDQueueID == NULL)
+      if (read_SDQueueID == NULL)
       {
  #if (osCMSIS <= 0x20000U)
       osMessageQDef(SD_Queue, QUEUE_SIZE, uint16_t);
       SDQueueID = osMessageCreate (osMessageQ(SD_Queue), NULL);
 #else
-      SDQueueID = osMessageQueueNew(QUEUE_SIZE, 2, NULL);
-      uint16_t msg = READ_CPLT_MSG; 
-      osMessageQueuePut(SDQueueID, (void *)&msg, 0, 0);
+      read_SDQueueID = osMessageQueueNew(QUEUE_SIZE, 2, NULL);
+      uint16_t read_msg = READ_CPLT_MSG; 
+      osMessageQueuePut(read_SDQueueID, (void *)&read_msg, 0, 0);
+      write_SDQueueID = osMessageQueueNew(QUEUE_SIZE, 2, NULL);
+      uint16_t write_msg = WRITE_CPLT_MSG; 
+      osMessageQueuePut(write_SDQueueID, (void *)&write_msg, 0, 0);
 #endif
       }
 
-      if (SDQueueID == NULL)
+      if (read_SDQueueID == NULL)
       {
         Stat |= STA_NOINIT;
       }
@@ -248,7 +252,8 @@ DSTATUS SD_status(BYTE lun)
   * @param  count: Number of sectors to read (1..128)
   * @retval DRESULT: Operation result
   */
-
+extern uint8_t log_flag;
+#include "sdio.h"
 DRESULT SD_read(BYTE lun, BYTE *buff, DWORD sector, UINT count)
 {
   uint8_t ret;
@@ -266,9 +271,10 @@ DRESULT SD_read(BYTE lun, BYTE *buff, DWORD sector, UINT count)
   /*
   * ensure the SDCard is ready for a new operation
   */
-
+  printf("SD_read buff: %p, sector address: %lu, count: %u\r\n", buff, sector, count);
   if (SD_CheckStatusWithTimeout(SD_TIMEOUT) < 0)
   {
+    printf("SD_CheckStatusWithTimeout error: %d\r\n", SD_CheckStatusWithTimeout(SD_TIMEOUT));
     return res;
   }
 
@@ -277,8 +283,8 @@ DRESULT SD_read(BYTE lun, BYTE *buff, DWORD sector, UINT count)
   {
 #endif
     /* Fast path cause destination buffer is correctly aligned */
+    
     ret = BSP_SD_ReadBlocks_DMA((uint32_t*)buff, (uint32_t)(sector), count);
-
     if (ret == MSD_OK) {
 #if (osCMSIS < 0x20000U)
     /* wait for a message from the queue or a timeout */
@@ -292,9 +298,15 @@ DRESULT SD_read(BYTE lun, BYTE *buff, DWORD sector, UINT count)
         /* block until SDIO IP is ready or a timeout occur */
         while(osKernelSysTick() - timer <SD_TIMEOUT)
 #else
-          status = osMessageQueueGet(SDQueueID, (void *)&event, NULL, 0);
+          status = osMessageQueueGet(read_SDQueueID, (void *)&event, NULL, 0);
+          if(status != osOK) {
+            printf("osMessageQueueGet error: %d, envet: %d\r\n", status, event);
+          }
           if ((status == osOK) && (event == READ_CPLT_MSG))
           {
+            if(log_flag) {
+              printf("osMessageQueueGet success: %d\r\n", status);
+            }
             timer = osKernelGetTickCount();
             /* block until SDIO IP is ready or a timeout occur */
             while(osKernelGetTickCount() - timer <SD_TIMEOUT)
@@ -320,6 +332,8 @@ DRESULT SD_read(BYTE lun, BYTE *buff, DWORD sector, UINT count)
 #else
       }
 #endif
+    } else {
+      printf("BSP_SD_ReadBlocks_DMA error: %d\r\n", ret);
     }
 
 #if defined(ENABLE_SCRATCH_BUFFER)
@@ -432,8 +446,9 @@ DRESULT SD_write(BYTE lun, const BYTE *buff, DWORD sector, UINT count)
 
   if (SD_CheckStatusWithTimeout(SD_TIMEOUT) < 0)
   {
+    printf("SD_CheckStatusWithTimeout error\r\n");
     return res;
-  }
+  } 
 
 #if defined(ENABLE_SCRATCH_BUFFER)
   if (!((uint32_t)buff & 0x3))
@@ -462,7 +477,10 @@ DRESULT SD_write(BYTE lun, const BYTE *buff, DWORD sector, UINT count)
       if (event.value.v == WRITE_CPLT_MSG)
       {
 #else
-    status = osMessageQueueGet(SDQueueID, (void *)&event, NULL, 0);
+    status = osMessageQueueGet(write_SDQueueID, (void *)&event, NULL, 0);
+    if(status != osOK) {
+      printf("osMessageQueueGet error: %d, envet: %d\r\n", status, event);
+    }
     if ((status == osOK) && (event == WRITE_CPLT_MSG))
     {
 #endif
@@ -561,7 +579,6 @@ DRESULT SD_write(BYTE lun, const BYTE *buff, DWORD sector, UINT count)
 
   }
 #endif
-
   return res;
 }
  #endif /* _USE_WRITE == 1 */
@@ -643,7 +660,7 @@ void BSP_SD_WriteCpltCallback(void)
    osMessagePut(SDQueueID, WRITE_CPLT_MSG, 0);
 #else
    const uint16_t msg = WRITE_CPLT_MSG;
-   osMessageQueuePut(SDQueueID, (const void *)&msg, 0, 0);
+   osMessageQueuePut(write_SDQueueID, (const void *)&msg, 0, 0);
 #endif
 }
 
@@ -662,7 +679,7 @@ void BSP_SD_ReadCpltCallback(void)
    osMessagePut(SDQueueID, READ_CPLT_MSG, 0);
 #else
    const uint16_t msg = READ_CPLT_MSG;
-   osMessageQueuePut(SDQueueID, (const void *)&msg, 0, 0);
+   osMessageQueuePut(read_SDQueueID, (const void *)&msg, 0, 0);
 #endif
 }
 

@@ -62,26 +62,35 @@ lv_font_t *montserratMedium_18;
 
 lv_font_t *load_bin_font_to_sdram(char *path) {
     FIL fil;
+    printf("start to load file %s\r\n", path);
     if (f_open(&fil, path, FA_READ) != FR_OK) {
         printf("File not found: %s\r\n", path);
     };
 
-    uint8_t *data_addr = (uint8_t *)current_sdram_addr;
-    uint32_t size      = f_size(&fil);
+    // uint8_t *data_addr = (uint8_t *)current_sdram_addr;
+    uint8_t data_addr[10000];
+    uint32_t size = f_size(&fil);
     current_sdram_addr += (size + 3) & ~3;
     UINT bytes_read = 0;
-    FRESULT res     = f_read(&fil, data_addr, size, &bytes_read);
+    printf("load font file: %s, size: %d, addr: 0x%08x\r\n", path, size, data_addr);
+    FRESULT res = f_read(&fil, data_addr, size, &bytes_read);
     if (res != FR_OK) {
-        printf("read font file error code %d, size: %d\r\n", res, size);
+        printf("read font file: %s, error code %d, size: %d\r\n", path, res, size);
+    } else {
+        printf("load font file: %s, size: %d, addr: 0x%08x, bytes_read: %d, success\r\n", path, size, data_addr, bytes_read);
     }
     f_close(&fil);
-    return lv_binfont_create_from_buffer(data_addr, size);
+    lv_font_t *font = lv_binfont_create_from_buffer(data_addr, size);
+    printf("lv_binfont_create_from_buffer\r\n");
+    return font;
 }
 
 void load_font() {
+    lv_fs_memfs_init();
     montserratMedium_16 = load_bin_font_to_sdram("0:/lvgl_app/fonts/montserratMedium_16.bin");
     montserratMedium_12 = load_bin_font_to_sdram("0:/lvgl_app/fonts/montserratMedium_12.bin");
     montserratMedium_18 = load_bin_font_to_sdram("0:/lvgl_app/fonts/montserratMedium_18.bin");
+    printf("load font finished\r\n");
 }
 
 void image_table_init() { memset(image_table, 0, sizeof(image_table)); }
@@ -151,13 +160,9 @@ void init_file_explorer(lv_ui *ui) {
     lv_obj_set_pos(ui->screen_file_file_explorer, 0, 50);
 }
 
-void custom_screen_init(lv_ui *ui) {
+void custom_screen_init(lv_ui *ui) {}
 
-}
-
-void custom_screen_serial_init(lv_ui *ui) {
-    
-}
+void custom_screen_serial_init(lv_ui *ui) {}
 
 void custom_screen_file_init(lv_ui *ui) {
     init_file_explorer(ui);

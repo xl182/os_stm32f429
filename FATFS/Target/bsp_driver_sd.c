@@ -152,8 +152,11 @@ __weak uint8_t BSP_SD_ReadBlocks_DMA(uint32_t *pData, uint32_t ReadAddr, uint32_
   uint8_t sd_state = MSD_OK;
 
   /* Read block(s) in DMA transfer mode */
-  if (HAL_SD_ReadBlocks_DMA(&hsd, (uint8_t *)pData, ReadAddr, NumOfBlocks) != HAL_OK)
+  uint8_t ret;
+  ret = HAL_SD_ReadBlocks_DMA(&hsd, (uint8_t *)pData, ReadAddr, NumOfBlocks);
+  if (ret != HAL_OK)
   {
+    printf("HAL_SD_ReadBlocks_DMA error: %d\r\n", ret);
     sd_state = MSD_ERROR;
   }
 

@@ -1527,3 +1527,1157 @@
 2025-08-31 16:42:13,303 - INFO - Skipping modified file: Core\Src\main.c
 2025-08-31 16:42:13,304 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
 2025-08-31 16:42:13,304 - INFO - Processing completed
+2025-08-31 16:48:23,961 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 16:48:23,964 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 16:48:23,964 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 16:48:23,965 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 16:48:23,965 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 16:48:23,965 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 16:48:23,966 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 16:48:23,966 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-08-31 16:48:23,967 - INFO - Updated Core\Src\main.c
+2025-08-31 16:48:23,967 - INFO - Inserted text after pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' in FATFS\Target\sd_diskio.c
+2025-08-31 16:48:23,968 - INFO - Replaced pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' in FATFS\Target\sd_diskio.c
+2025-08-31 16:48:23,969 - INFO - Updated FATFS\Target\sd_diskio.c
+2025-08-31 16:48:23,969 - INFO - Updated state with 3 new operations
+2025-08-31 16:48:23,970 - INFO - Processing completed
+2025-08-31 16:49:49,279 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 16:49:49,280 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 16:49:49,281 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 16:49:49,281 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 16:49:49,282 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 16:49:49,282 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 16:49:49,282 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 16:49:49,283 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 16:49:49,283 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 16:49:49,283 - INFO - Processing completed
+2025-08-31 16:50:35,615 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 16:50:35,616 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 16:50:35,617 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 16:50:35,617 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 16:50:35,617 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 16:50:35,618 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 16:50:35,618 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 16:50:35,619 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 16:50:35,619 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 16:50:35,619 - INFO - Processing completed
+2025-08-31 21:47:09,388 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 21:47:09,390 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 21:47:09,390 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 21:47:09,390 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 21:47:09,391 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 21:47:09,391 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 21:47:09,391 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 21:47:09,392 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 21:47:09,392 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 21:47:09,392 - INFO - Processing completed
+2025-08-31 21:47:45,110 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 21:47:45,112 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 21:47:45,112 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 21:47:45,112 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 21:47:45,113 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 21:47:45,113 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 21:47:45,113 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 21:47:45,114 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 21:47:45,114 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 21:47:45,114 - INFO - Processing completed
+2025-08-31 21:48:41,453 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 21:48:41,454 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 21:48:41,455 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 21:48:41,455 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 21:48:41,455 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 21:48:41,456 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 21:48:41,456 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 21:48:41,456 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 21:48:41,457 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 21:48:41,457 - INFO - Processing completed
+2025-08-31 21:49:18,599 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 21:49:18,601 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 21:49:18,601 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 21:49:18,602 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 21:49:18,603 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 21:49:18,604 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 21:49:18,605 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 21:49:18,606 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 21:49:18,606 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 21:49:18,606 - INFO - Processing completed
+2025-08-31 21:49:57,458 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 21:49:57,460 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 21:49:57,460 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 21:49:57,460 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 21:49:57,461 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 21:49:57,461 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 21:49:57,461 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 21:49:57,462 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 21:49:57,462 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 21:49:57,462 - INFO - Processing completed
+2025-08-31 21:50:35,828 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 21:50:35,829 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 21:50:35,829 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 21:50:35,830 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 21:50:35,830 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 21:50:35,830 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 21:50:35,831 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 21:50:35,831 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 21:50:35,831 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 21:50:35,832 - INFO - Processing completed
+2025-08-31 21:51:11,141 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 21:51:11,142 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 21:51:11,142 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 21:51:11,143 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 21:51:11,143 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 21:51:11,144 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 21:51:11,144 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 21:51:11,145 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 21:51:11,145 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 21:51:11,145 - INFO - Processing completed
+2025-08-31 21:51:46,732 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 21:51:46,733 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 21:51:46,735 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 21:51:46,735 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 21:51:46,735 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 21:51:46,735 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 21:51:46,735 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 21:51:46,736 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 21:51:46,736 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 21:51:46,736 - INFO - Processing completed
+2025-08-31 21:52:42,318 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 21:52:42,320 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 21:52:42,320 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 21:52:42,321 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 21:52:42,321 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 21:52:42,321 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 21:52:42,322 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 21:52:42,322 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 21:52:42,323 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 21:52:42,323 - INFO - Processing completed
+2025-08-31 21:53:38,182 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 21:53:38,184 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 21:53:38,184 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 21:53:38,184 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 21:53:38,185 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 21:53:38,185 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 21:53:38,185 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 21:53:38,186 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 21:53:38,186 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 21:53:38,186 - INFO - Processing completed
+2025-08-31 22:00:10,842 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:00:10,843 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:00:10,843 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:00:10,844 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:00:10,844 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:00:10,844 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:00:10,845 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:00:10,845 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:00:10,845 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:00:10,846 - INFO - Processing completed
+2025-08-31 22:02:43,807 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:02:43,809 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:02:43,809 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:02:43,809 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:02:43,810 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:02:43,810 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:02:43,810 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:02:43,811 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:02:43,811 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:02:43,811 - INFO - Processing completed
+2025-08-31 22:03:28,295 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:03:28,296 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:03:28,296 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:03:28,297 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:03:28,297 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:03:28,297 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:03:28,298 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:03:28,298 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:03:28,298 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:03:28,299 - INFO - Processing completed
+2025-08-31 22:04:11,688 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:04:11,689 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:04:11,689 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:04:11,690 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:04:11,690 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:04:11,690 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:04:11,691 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:04:11,691 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:04:11,692 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:04:11,692 - INFO - Processing completed
+2025-08-31 22:04:41,569 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:04:41,570 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:04:41,570 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:04:41,571 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:04:41,571 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:04:41,571 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:04:41,572 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:04:41,572 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:04:41,573 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:04:41,573 - INFO - Processing completed
+2025-08-31 22:05:42,878 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:05:42,879 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:05:42,879 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:05:42,880 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:05:42,880 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:05:42,881 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:05:42,881 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:05:42,882 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:05:42,882 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:05:42,882 - INFO - Processing completed
+2025-08-31 22:06:33,000 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:06:33,001 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:06:33,002 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:06:33,002 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:06:33,003 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:06:33,003 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:06:33,004 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:06:33,004 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:06:33,005 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:06:33,005 - INFO - Processing completed
+2025-08-31 22:09:14,240 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:09:14,242 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:09:14,242 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:09:14,243 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:09:14,243 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:09:14,244 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:09:14,244 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:09:14,244 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:09:14,244 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:09:14,245 - INFO - Processing completed
+2025-08-31 22:10:00,197 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:10:00,198 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:10:00,198 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:10:00,198 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:10:00,199 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:10:00,199 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:10:00,200 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:10:00,200 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:10:00,201 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:10:00,201 - INFO - Processing completed
+2025-08-31 22:11:40,171 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:11:40,172 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:11:40,172 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:11:40,173 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:11:40,173 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:11:40,173 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:11:40,174 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:11:40,174 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:11:40,174 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:11:40,174 - INFO - Processing completed
+2025-08-31 22:12:05,880 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:12:05,881 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:12:05,882 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:12:05,882 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:12:05,883 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:12:05,883 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:12:05,883 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:12:05,884 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:12:05,884 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:12:05,885 - INFO - Processing completed
+2025-08-31 22:13:28,476 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:13:28,477 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:13:28,478 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:13:28,478 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:13:28,478 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:13:28,479 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:13:28,479 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:13:28,480 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:13:28,480 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:13:28,480 - INFO - Processing completed
+2025-08-31 22:14:39,280 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:14:39,281 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:14:39,281 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:14:39,282 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:14:39,282 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:14:39,282 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:14:39,283 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:14:39,283 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:14:39,284 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:14:39,284 - INFO - Processing completed
+2025-08-31 22:16:39,839 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:16:39,840 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:16:39,840 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:16:39,841 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:16:39,841 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:16:39,841 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:16:39,842 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:16:39,842 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:16:39,842 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:16:39,842 - INFO - Processing completed
+2025-08-31 22:33:32,347 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:33:32,348 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:33:32,349 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:33:32,349 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:33:32,349 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:33:32,350 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:33:32,350 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:33:32,350 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:33:32,351 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:33:32,351 - INFO - Processing completed
+2025-08-31 22:34:20,577 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:34:20,578 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:34:20,579 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:34:20,579 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:34:20,580 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:34:20,580 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:34:20,580 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:34:20,581 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:34:20,581 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:34:20,581 - INFO - Processing completed
+2025-08-31 22:37:06,598 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:37:06,599 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:37:06,600 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:37:06,600 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:37:06,600 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:37:06,601 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:37:06,601 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:37:06,601 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:37:06,601 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:37:06,601 - INFO - Processing completed
+2025-08-31 22:38:54,147 - INFO - current path: D:\Program\STM32\F429\OS
+2025-08-31 22:38:54,148 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-08-31 22:38:54,149 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-08-31 22:38:54,149 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-08-31 22:38:54,149 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-08-31 22:38:54,150 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-08-31 22:38:54,150 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-08-31 22:38:54,151 - INFO - Skipping modified file: Core\Src\main.c
+2025-08-31 22:38:54,151 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-08-31 22:38:54,151 - INFO - Processing completed
+2025-09-01 01:03:33,308 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 01:03:33,309 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 01:03:33,309 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 01:03:33,310 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 01:03:33,310 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 01:03:33,311 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 01:03:33,311 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 01:03:33,312 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 01:03:33,312 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 01:03:33,313 - INFO - Processing completed
+2025-09-01 01:03:48,229 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 01:03:48,230 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 01:03:48,230 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 01:03:48,231 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 01:03:48,231 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 01:03:48,231 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 01:03:48,232 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 01:03:48,232 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 01:03:48,233 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 01:03:48,233 - INFO - Processing completed
+2025-09-01 10:33:03,275 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:33:03,277 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:33:03,278 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:33:03,279 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:33:03,280 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:33:03,280 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:33:03,281 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:33:03,281 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:33:03,281 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:33:03,281 - INFO - Processing completed
+2025-09-01 10:33:24,175 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:33:24,176 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:33:24,176 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:33:24,176 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:33:24,177 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:33:24,177 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:33:24,178 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:33:24,178 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:33:24,178 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:33:24,178 - INFO - Processing completed
+2025-09-01 10:34:07,017 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:34:07,018 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:34:07,019 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:34:07,019 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:34:07,020 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:34:07,020 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:34:07,021 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:34:07,021 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:34:07,021 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:34:07,021 - INFO - Processing completed
+2025-09-01 10:38:11,797 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:38:11,798 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:38:11,798 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:38:11,799 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:38:11,799 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:38:11,800 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:38:11,800 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:38:11,800 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:38:11,800 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:38:11,802 - INFO - Processing completed
+2025-09-01 10:39:44,926 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:39:44,927 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:39:44,927 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:39:44,928 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:39:44,928 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:39:44,928 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:39:44,929 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:39:44,930 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:39:44,930 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:39:44,930 - INFO - Processing completed
+2025-09-01 10:40:49,423 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:40:49,424 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:40:49,425 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:40:49,425 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:40:49,425 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:40:49,426 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:40:49,426 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:40:49,426 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:40:49,427 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:40:49,427 - INFO - Processing completed
+2025-09-01 10:44:10,909 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:44:10,910 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:44:10,910 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:44:10,910 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:44:10,911 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:44:10,911 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:44:10,912 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:44:10,912 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:44:10,912 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:44:10,912 - INFO - Processing completed
+2025-09-01 10:45:11,435 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:45:11,436 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:45:11,437 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:45:11,437 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:45:11,437 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:45:11,438 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:45:11,438 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:45:11,438 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:45:11,439 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:45:11,439 - INFO - Processing completed
+2025-09-01 10:47:33,970 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:47:33,971 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:47:33,972 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:47:33,972 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:47:33,972 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:47:33,973 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:47:33,973 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:47:33,973 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:47:33,974 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:47:33,974 - INFO - Processing completed
+2025-09-01 10:48:58,551 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:48:58,552 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:48:58,552 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:48:58,552 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:48:58,553 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:48:58,553 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:48:58,554 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:48:58,554 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:48:58,554 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:48:58,555 - INFO - Processing completed
+2025-09-01 10:49:50,023 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:49:50,025 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:49:50,025 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:49:50,026 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:49:50,026 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:49:50,026 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:49:50,027 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:49:50,027 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:49:50,027 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:49:50,027 - INFO - Processing completed
+2025-09-01 10:50:41,025 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:50:41,026 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:50:41,026 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:50:41,027 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:50:41,027 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:50:41,027 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:50:41,028 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:50:41,028 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:50:41,028 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:50:41,029 - INFO - Processing completed
+2025-09-01 10:51:33,343 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:51:33,344 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:51:33,344 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:51:33,345 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:51:33,345 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:51:33,345 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:51:33,346 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:51:33,346 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:51:33,347 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:51:33,347 - INFO - Processing completed
+2025-09-01 10:54:26,237 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:54:26,238 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:54:26,238 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:54:26,239 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:54:26,239 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:54:26,240 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:54:26,240 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:54:26,240 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:54:26,241 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:54:26,241 - INFO - Processing completed
+2025-09-01 10:54:53,515 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 10:54:53,516 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 10:54:53,517 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 10:54:53,517 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 10:54:53,517 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 10:54:53,518 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 10:54:53,518 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 10:54:53,519 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 10:54:53,519 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 10:54:53,519 - INFO - Processing completed
+2025-09-01 11:00:13,969 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:00:13,971 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:00:13,971 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:00:13,971 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:00:13,971 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:00:13,971 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:00:13,972 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:00:13,972 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:00:13,973 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:00:13,973 - INFO - Processing completed
+2025-09-01 11:00:51,174 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:00:51,176 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:00:51,176 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:00:51,176 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:00:51,177 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:00:51,177 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:00:51,177 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:00:51,178 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:00:51,178 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:00:51,179 - INFO - Processing completed
+2025-09-01 11:01:44,105 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:01:44,107 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:01:44,107 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:01:44,107 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:01:44,108 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:01:44,108 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:01:44,109 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:01:44,109 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:01:44,109 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:01:44,109 - INFO - Processing completed
+2025-09-01 11:03:23,895 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:03:23,896 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:03:23,897 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:03:23,897 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:03:23,897 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:03:23,898 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:03:23,898 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:03:23,898 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:03:23,899 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:03:23,899 - INFO - Processing completed
+2025-09-01 11:03:53,659 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:03:53,660 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:03:53,661 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:03:53,661 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:03:53,661 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:03:53,662 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:03:53,662 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:03:53,662 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:03:53,663 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:03:53,663 - INFO - Processing completed
+2025-09-01 11:04:47,606 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:04:47,608 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:04:47,608 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:04:47,608 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:04:47,609 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:04:47,609 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:04:47,610 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:04:47,610 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:04:47,610 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:04:47,610 - INFO - Processing completed
+2025-09-01 11:05:46,596 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:05:46,597 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:05:46,597 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:05:46,598 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:05:46,598 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:05:46,598 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:05:46,598 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:05:46,600 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:05:46,600 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:05:46,600 - INFO - Processing completed
+2025-09-01 11:07:04,287 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:07:04,288 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:07:04,289 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:07:04,289 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:07:04,289 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:07:04,289 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:07:04,291 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:07:04,291 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:07:04,291 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:07:04,291 - INFO - Processing completed
+2025-09-01 11:07:55,468 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:07:55,470 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:07:55,470 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:07:55,470 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:07:55,471 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:07:55,471 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:07:55,472 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:07:55,472 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:07:55,472 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:07:55,472 - INFO - Processing completed
+2025-09-01 11:28:56,498 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:28:56,500 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:28:56,500 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:28:56,501 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:28:56,501 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:28:56,502 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:28:56,502 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:28:56,502 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:28:56,503 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:28:56,503 - INFO - Processing completed
+2025-09-01 11:34:25,417 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:34:25,418 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:34:25,418 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:34:25,418 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:34:25,418 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:34:25,419 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:34:25,419 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:34:25,420 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:34:25,420 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:34:25,420 - INFO - Processing completed
+2025-09-01 11:36:11,999 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:36:12,000 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:36:12,001 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:36:12,001 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:36:12,001 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:36:12,002 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:36:12,002 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:36:12,002 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:36:12,003 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:36:12,003 - INFO - Processing completed
+2025-09-01 11:40:01,553 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:40:01,554 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:40:01,554 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:40:01,555 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:40:01,555 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:40:01,555 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:40:01,556 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:40:01,556 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:40:01,556 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:40:01,556 - INFO - Processing completed
+2025-09-01 11:41:40,880 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:41:40,881 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:41:40,882 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:41:40,882 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:41:40,882 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:41:40,883 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:41:40,883 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:41:40,884 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:41:40,884 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:41:40,884 - INFO - Processing completed
+2025-09-01 11:44:18,092 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:44:18,093 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:44:18,093 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:44:18,094 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:44:18,094 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:44:18,094 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:44:18,095 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:44:18,095 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:44:18,095 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:44:18,095 - INFO - Processing completed
+2025-09-01 11:53:08,722 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:53:08,724 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:53:08,724 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:53:08,724 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:53:08,725 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:53:08,725 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:53:08,726 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:53:08,726 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:53:08,726 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:53:08,726 - INFO - Processing completed
+2025-09-01 11:54:07,349 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:54:07,350 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:54:07,350 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:54:07,350 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:54:07,351 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:54:07,351 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:54:07,351 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:54:07,352 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:54:07,352 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:54:07,352 - INFO - Processing completed
+2025-09-01 11:55:36,272 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:55:36,274 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:55:36,274 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:55:36,275 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:55:36,275 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:55:36,275 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:55:36,276 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:55:36,276 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:55:36,276 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:55:36,276 - INFO - Processing completed
+2025-09-01 11:58:02,168 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 11:58:02,169 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 11:58:02,169 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 11:58:02,170 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 11:58:02,170 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 11:58:02,170 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 11:58:02,171 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 11:58:02,172 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 11:58:02,172 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 11:58:02,172 - INFO - Processing completed
+2025-09-01 12:00:23,892 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 12:00:23,894 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 12:00:23,894 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 12:00:23,894 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 12:00:23,895 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 12:00:23,895 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 12:00:23,895 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 12:00:23,896 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 12:00:23,896 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 12:00:23,897 - INFO - Processing completed
+2025-09-01 12:08:03,002 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 12:08:03,003 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 12:08:03,003 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 12:08:03,004 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 12:08:03,004 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 12:08:03,005 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 12:08:03,005 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 12:08:03,005 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 12:08:03,006 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 12:08:03,006 - INFO - Processing completed
+2025-09-01 12:08:14,213 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 12:08:14,215 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 12:08:14,215 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 12:08:14,216 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 12:08:14,216 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 12:08:14,216 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 12:08:14,217 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 12:08:14,217 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 12:08:14,218 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 12:08:14,218 - INFO - Processing completed
+2025-09-01 12:10:23,921 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 12:10:23,922 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 12:10:23,923 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 12:10:23,923 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 12:10:23,923 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 12:10:23,924 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 12:10:23,924 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 12:10:23,924 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 12:10:23,926 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 12:10:23,926 - INFO - Processing completed
+2025-09-01 12:11:52,562 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 12:11:52,563 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 12:11:52,564 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 12:11:52,564 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 12:11:52,564 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 12:11:52,565 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 12:11:52,565 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 12:11:52,565 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 12:11:52,566 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 12:11:52,566 - INFO - Processing completed
+2025-09-01 12:13:45,225 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 12:13:45,226 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 12:13:45,227 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 12:13:45,227 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 12:13:45,227 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 12:13:45,228 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 12:13:45,228 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 12:13:45,229 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 12:13:45,229 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 12:13:45,229 - INFO - Processing completed
+2025-09-01 15:04:04,853 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:04:04,855 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:04:04,855 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:04:04,856 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:04:04,856 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:04:04,857 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:04:04,857 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:04:04,857 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:04:04,858 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:04:04,858 - INFO - Processing completed
+2025-09-01 15:05:24,357 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:05:24,358 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:05:24,358 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:05:24,358 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:05:24,359 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:05:24,359 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:05:24,359 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:05:24,360 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:05:24,360 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:05:24,360 - INFO - Processing completed
+2025-09-01 15:06:45,414 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:06:45,416 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:06:45,417 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:06:45,417 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:06:45,417 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:06:45,418 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:06:45,418 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:06:45,418 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:06:45,419 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:06:45,419 - INFO - Processing completed
+2025-09-01 15:07:04,862 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:07:04,864 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:07:04,864 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:07:04,864 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:07:04,865 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:07:04,865 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:07:04,865 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:07:04,866 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:07:04,867 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:07:04,867 - INFO - Processing completed
+2025-09-01 15:07:15,751 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:07:15,752 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:07:15,753 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:07:15,753 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:07:15,753 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:07:15,754 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:07:15,754 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:07:15,755 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:07:15,755 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:07:15,755 - INFO - Processing completed
+2025-09-01 15:08:05,382 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:08:05,383 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:08:05,384 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:08:05,384 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:08:05,385 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:08:05,385 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:08:05,385 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:08:05,386 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:08:05,386 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:08:05,386 - INFO - Processing completed
+2025-09-01 15:09:54,156 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:09:54,157 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:09:54,157 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:09:54,158 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:09:54,158 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:09:54,158 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:09:54,159 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:09:54,159 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:09:54,160 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:09:54,160 - INFO - Processing completed
+2025-09-01 15:10:50,044 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:10:50,045 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:10:50,046 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:10:50,046 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:10:50,046 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:10:50,047 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:10:50,047 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:10:50,047 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:10:50,048 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:10:50,048 - INFO - Processing completed
+2025-09-01 15:12:14,472 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:12:14,473 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:12:14,473 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:12:14,474 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:12:14,474 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:12:14,474 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:12:14,475 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:12:14,475 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:12:14,475 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:12:14,476 - INFO - Processing completed
+2025-09-01 15:13:52,095 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:13:52,097 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:13:52,097 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:13:52,097 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:13:52,098 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:13:52,098 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:13:52,099 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:13:52,099 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:13:52,099 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:13:52,099 - INFO - Processing completed
+2025-09-01 15:16:09,675 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:16:09,676 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:16:09,677 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:16:09,677 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:16:09,678 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:16:09,678 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:16:09,678 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:16:09,679 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:16:09,679 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:16:09,679 - INFO - Processing completed
+2025-09-01 15:17:29,749 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 15:17:29,750 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 15:17:29,751 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 15:17:29,751 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 15:17:29,751 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 15:17:29,752 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 15:17:29,752 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 15:17:29,752 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 15:17:29,753 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 15:17:29,753 - INFO - Processing completed
+2025-09-01 16:59:25,162 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 16:59:25,163 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 16:59:25,163 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 16:59:25,163 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 16:59:25,164 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 16:59:25,164 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 16:59:25,164 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 16:59:25,165 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 16:59:25,165 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 16:59:25,165 - INFO - Processing completed
+2025-09-01 16:59:50,923 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 16:59:50,924 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 16:59:50,924 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 16:59:50,925 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 16:59:50,925 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 16:59:50,926 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 16:59:50,926 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 16:59:50,926 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 16:59:50,927 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 16:59:50,927 - INFO - Processing completed
+2025-09-01 17:00:59,564 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 17:00:59,566 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 17:00:59,566 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 17:00:59,566 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 17:00:59,566 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 17:00:59,567 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 17:00:59,567 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 17:00:59,567 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 17:00:59,568 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 17:00:59,568 - INFO - Processing completed
+2025-09-01 17:02:25,604 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-01 17:02:25,605 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-01 17:02:25,605 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-01 17:02:25,606 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-01 17:02:25,606 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-01 17:02:25,606 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-01 17:02:25,607 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-01 17:02:25,607 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-01 17:02:25,608 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-01 17:02:25,608 - INFO - Processing completed
+2025-09-13 23:55:54,932 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-13 23:55:54,933 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-13 23:55:54,934 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-13 23:55:54,934 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-13 23:55:54,934 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-13 23:55:54,935 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-13 23:55:54,935 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-13 23:55:54,936 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-13 23:55:54,936 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-13 23:55:54,936 - INFO - Processing completed
+2025-09-13 23:57:02,115 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-13 23:57:02,116 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-13 23:57:02,116 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-13 23:57:02,117 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-13 23:57:02,117 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-13 23:57:02,117 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-13 23:57:02,118 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-13 23:57:02,118 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-13 23:57:02,119 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-13 23:57:02,119 - INFO - Processing completed
+2025-09-13 23:58:49,168 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-13 23:58:49,169 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-13 23:58:49,170 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-13 23:58:49,170 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-13 23:58:49,170 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-13 23:58:49,171 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-13 23:58:49,172 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-13 23:58:49,172 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-13 23:58:49,172 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-13 23:58:49,172 - INFO - Processing completed
+2025-09-13 23:59:13,636 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-13 23:59:13,637 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-13 23:59:13,638 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-13 23:59:13,639 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-13 23:59:13,639 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-13 23:59:13,639 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-13 23:59:13,640 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-13 23:59:13,640 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-13 23:59:13,640 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-13 23:59:13,640 - INFO - Processing completed
+2025-09-14 00:01:16,970 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:01:16,971 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:01:16,971 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:01:16,972 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:01:16,972 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:01:16,973 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:01:16,973 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:01:16,973 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:01:16,974 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:01:16,974 - INFO - Processing completed
+2025-09-14 00:02:27,899 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:02:27,900 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:02:27,900 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:02:27,901 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:02:27,901 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:02:27,901 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:02:27,902 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:02:27,902 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:02:27,903 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:02:27,903 - INFO - Processing completed
+2025-09-14 00:03:44,051 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:03:44,052 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:03:44,052 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:03:44,052 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:03:44,053 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:03:44,053 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:03:44,053 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:03:44,054 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:03:44,054 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:03:44,054 - INFO - Processing completed
+2025-09-14 00:05:07,233 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:05:07,235 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:05:07,235 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:05:07,235 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:05:07,236 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:05:07,236 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:05:07,237 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:05:07,237 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:05:07,237 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:05:07,238 - INFO - Processing completed
+2025-09-14 00:05:28,673 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:05:28,674 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:05:28,674 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:05:28,675 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:05:28,675 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:05:28,676 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:05:28,676 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:05:28,676 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:05:28,677 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:05:28,677 - INFO - Processing completed
+2025-09-14 00:07:05,441 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:07:05,442 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:07:05,443 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:07:05,444 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:07:05,444 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:07:05,444 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:07:05,445 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:07:05,446 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:07:05,446 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:07:05,446 - INFO - Processing completed
+2025-09-14 00:07:20,141 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:07:20,142 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:07:20,143 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:07:20,143 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:07:20,144 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:07:20,144 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:07:20,144 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:07:20,145 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:07:20,145 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:07:20,145 - INFO - Processing completed
+2025-09-14 00:07:36,195 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:07:36,197 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:07:36,198 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:07:36,198 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:07:36,199 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:07:36,199 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:07:36,199 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:07:36,200 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:07:36,200 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:07:36,200 - INFO - Processing completed
+2025-09-14 00:07:55,633 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:07:55,635 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:07:55,635 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:07:55,635 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:07:55,636 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:07:55,636 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:07:55,636 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:07:55,637 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:07:55,637 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:07:55,637 - INFO - Processing completed
+2025-09-14 00:08:43,933 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:08:43,934 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:08:43,935 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:08:43,936 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:08:43,936 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:08:43,936 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:08:43,937 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:08:43,937 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:08:43,938 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:08:43,938 - INFO - Processing completed
+2025-09-14 00:09:30,338 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:09:30,339 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:09:30,340 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:09:30,340 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:09:30,340 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:09:30,340 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:09:30,341 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:09:30,341 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:09:30,342 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:09:30,342 - INFO - Processing completed
+2025-09-14 00:10:14,811 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:10:14,813 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:10:14,813 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:10:14,813 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:10:14,814 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:10:14,814 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:10:14,814 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:10:14,815 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:10:14,815 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:10:14,815 - INFO - Processing completed
+2025-09-14 00:10:42,103 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:10:42,104 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:10:42,105 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:10:42,106 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:10:42,106 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:10:42,106 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:10:42,107 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:10:42,107 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:10:42,108 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:10:42,108 - INFO - Processing completed
+2025-09-14 00:12:30,899 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:12:30,900 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:12:30,900 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:12:30,901 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:12:30,901 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:12:30,902 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:12:30,902 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:12:30,902 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:12:30,903 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:12:30,903 - INFO - Processing completed
+2025-09-14 00:21:04,046 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:21:04,048 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:21:04,049 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:21:04,049 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:21:04,049 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:21:04,050 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:21:04,050 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:21:04,050 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:21:04,051 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:21:04,051 - INFO - Processing completed
+2025-09-14 00:21:31,801 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:21:31,802 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:21:31,802 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:21:31,803 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:21:31,803 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:21:31,803 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:21:31,804 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:21:31,804 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:21:31,805 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:21:31,805 - INFO - Processing completed
+2025-09-14 00:31:20,707 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:31:20,709 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:31:20,710 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:31:20,711 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:31:20,711 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:31:20,712 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:31:20,713 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:31:20,713 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:31:20,714 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:31:20,714 - INFO - Processing completed
+2025-09-14 00:32:04,763 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:32:04,764 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:32:04,765 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:32:04,765 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:32:04,765 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:32:04,766 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:32:04,767 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:32:04,767 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:32:04,768 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:32:04,769 - INFO - Processing completed
+2025-09-14 00:34:04,557 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:34:04,558 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:34:04,559 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:34:04,559 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:34:04,559 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:34:04,560 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:34:04,560 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:34:04,561 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:34:04,561 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:34:04,561 - INFO - Processing completed
+2025-09-14 00:35:07,562 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:35:07,563 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:35:07,564 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:35:07,564 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:35:07,565 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:35:07,565 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:35:07,566 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:35:07,566 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:35:07,566 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:35:07,566 - INFO - Processing completed
+2025-09-14 00:35:42,255 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:35:42,256 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:35:42,257 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:35:42,257 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:35:42,257 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:35:42,258 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:35:42,259 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:35:42,259 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:35:42,259 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:35:42,259 - INFO - Processing completed
+2025-09-14 00:36:55,397 - INFO - current path: D:\Program\STM32\F429\OS
+2025-09-14 00:36:55,398 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-09-14 00:36:55,399 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-09-14 00:36:55,400 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-09-14 00:36:55,400 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-09-14 00:36:55,400 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-09-14 00:36:55,401 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-09-14 00:36:55,401 - INFO - Skipping modified file: Core\Src\main.c
+2025-09-14 00:36:55,401 - INFO - Skipping modified file: FATFS\Target\sd_diskio.c
+2025-09-14 00:36:55,401 - INFO - Processing completed
