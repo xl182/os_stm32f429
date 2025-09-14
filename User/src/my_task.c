@@ -82,7 +82,6 @@ void StartInitTask(void *pvParameters) {
     printf("Read from file: %s, real read num %d\r\n", read_data, bytes_read);
     f_close(&fil);
 
-    log_flag = 1;
     printf("start to load font\r\n");
     load_font();
     gui_init();
@@ -93,6 +92,9 @@ void StartInitTask(void *pvParameters) {
     printf("events init finished\r\n");
     custom_init(ui);
     printf("lvgl init finished\r\n");
+
     while (1) {
+        lv_tick_inc(5);
+        lv_task_handler();
     }
 }

@@ -67,8 +67,7 @@ lv_font_t *load_bin_font_to_sdram(char *path) {
         printf("File not found: %s\r\n", path);
     };
 
-    // uint8_t *data_addr = (uint8_t *)current_sdram_addr;
-    uint8_t data_addr[10000];
+    uint8_t *data_addr = (uint8_t *)current_sdram_addr;
     uint32_t size = f_size(&fil);
     current_sdram_addr += (size + 3) & ~3;
     UINT bytes_read = 0;

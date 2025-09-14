@@ -85,14 +85,14 @@ static unsigned int read_bits(bit_iterator_t *it, int n_bits, lv_fs_res_t *res);
 #include "../../../user/inc/sections.h"
 #include "stdio.h"
 extern uint32_t current_sdram_addr;
-// void *sdram_alloc(size_t size) {
-//     size       = (size + 3) & ~3;
-//     void *addr = (void *)current_sdram_addr;
-//     current_sdram_addr += size;
-//     custom_log("alloc sdram addr: %x, size: %d\r\n", addr, size);
-//     return addr;
-// }
-#define sdram_alloc lv_malloc
+void *sdram_alloc(size_t size) {
+    size       = (size + 3) & ~3;
+    void *addr = (void *)current_sdram_addr;
+    current_sdram_addr += size;
+    custom_log("alloc sdram addr: %x, size: %d\r\n", addr, size);
+    return addr;
+}
+// #define sdram_alloc lv_malloc
 
 lv_font_t *lv_binfont_create(const char *path) {
     LV_ASSERT_NULL(path);

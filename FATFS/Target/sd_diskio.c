@@ -271,7 +271,6 @@ DRESULT SD_read(BYTE lun, BYTE *buff, DWORD sector, UINT count)
   /*
   * ensure the SDCard is ready for a new operation
   */
-  printf("SD_read buff: %p, sector address: %lu, count: %u\r\n", buff, sector, count);
   if (SD_CheckStatusWithTimeout(SD_TIMEOUT) < 0)
   {
     printf("SD_CheckStatusWithTimeout error: %d\r\n", SD_CheckStatusWithTimeout(SD_TIMEOUT));
