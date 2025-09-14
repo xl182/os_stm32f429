@@ -80,14 +80,15 @@ void gt911_reset(void) {
     HAL_GPIO_WritePin(T_RST_PORT, T_RST_PIN, GPIO_PIN_RESET); // 拉低复位
     HAL_GPIO_WritePin(T_SDA_PORT, T_SDA_PIN, GPIO_PIN_SET);   // 释放SDA
     HAL_GPIO_WritePin(T_SCK_PORT, T_SCK_PIN, GPIO_PIN_SET);   // 释放SCL
-    delay_ms(20);                                            // 延长复位时间
+    delay_ms(20);                                             // 延长复位时间
 
     HAL_GPIO_WritePin(T_RST_PORT, T_RST_PIN, GPIO_PIN_SET); // 释放复位
-    delay_ms(60);                                          // 延长复位后等待时间
+    delay_ms(60);                                           // 延长复位后等待时间
 }
 
 // 读寄存器 (带重试机制)
 uint8_t gt911_read_reg(uint16_t reg, uint8_t *buf, uint8_t len) {
+    uint8_t error_code  = 0;
     uint8_t retry       = 3;
     uint8_t reg_addr[2] = {reg >> 8, reg & 0xFF};
 
@@ -96,21 +97,33 @@ uint8_t gt911_read_reg(uint16_t reg, uint8_t *buf, uint8_t len) {
 
         // 发送设备地址 (写模式)
         i2c_send_byte(GT911_WRITE_ADDR);
-        if (!i2c_wait_ack()) goto error;
+        if (!i2c_wait_ack()) {
+            error_code = 1;
+            goto error;
+        }
 
         // 发送寄存器地址高字节
         i2c_send_byte(reg_addr[0]);
-        if (!i2c_wait_ack()) goto error;
+        if (!i2c_wait_ack()) {
+            error_code = 2;
+            goto error;
+        }
 
         // 发送寄存器地址低字节
         i2c_send_byte(reg_addr[1]);
-        if (!i2c_wait_ack()) goto error;
+        if (!i2c_wait_ack()) {
+            error_code = 3;
+            goto error;
+        }
 
         i2c_start();
 
         // 发送设备地址 (读模式)
         i2c_send_byte(GT911_READ_ADDR);
-        if (!i2c_wait_ack()) goto error;
+        if (!i2c_wait_ack()) {
+            error_code = 4;
+            goto error;
+        }
 
         // 读取数据
         for (uint8_t i = 0; i < len; i++) {
@@ -121,7 +134,7 @@ uint8_t gt911_read_reg(uint16_t reg, uint8_t *buf, uint8_t len) {
         return 0; // 成功
 
     error:
-        printf("GT911 read reg error\r\n");
+        printf("GT911 read reg error: %d\r\n", error_code);
         i2c_stop();
         delay_ms(1);
     }
@@ -130,6 +143,7 @@ uint8_t gt911_read_reg(uint16_t reg, uint8_t *buf, uint8_t len) {
 
 // 写寄存器 (带重试机制)
 uint8_t gt911_write_reg(uint16_t reg, uint8_t *data, uint8_t len) {
+    uint8_t error_code  = 0;
     uint8_t retry       = 3;
     uint8_t reg_addr[2] = {reg >> 8, reg & 0xFF};
 
@@ -138,20 +152,32 @@ uint8_t gt911_write_reg(uint16_t reg, uint8_t *data, uint8_t len) {
 
         // 发送设备地址 (写模式)
         i2c_send_byte(GT911_WRITE_ADDR);
-        if (!i2c_wait_ack()) goto error;
+        if (!i2c_wait_ack()) {
+            error_code = 1;
+            goto error;
+        }
 
         // 发送寄存器地址高字节
         i2c_send_byte(reg_addr[0]);
-        if (!i2c_wait_ack()) goto error;
+        if (!i2c_wait_ack()) {
+            error_code = 2;
+            goto error;
+        }
 
         // 发送寄存器地址低字节
         i2c_send_byte(reg_addr[1]);
-        if (!i2c_wait_ack()) goto error;
+        if (!i2c_wait_ack()) {
+            error_code = 3;
+            goto error;
+        }
 
         // 发送数据
         for (uint8_t i = 0; i < len; i++) {
             i2c_send_byte(data[i]);
-            if (!i2c_wait_ack()) goto error;
+            if (!i2c_wait_ack()) {
+                error_code = 4;
+                goto error;
+            }
         }
 
         i2c_stop();
@@ -280,8 +306,9 @@ void gt911_calibrate_coordinates(gt911_touch_t *touch) {
 // ============================================================
 
 // I2C延时 (约1us)
-static void i2c_delay(void) {
-    delay_us(4);
+static void i2c_delay(void) { 
+    for (volatile int i = 0; i < 11; i++)
+        ;
 }
 
 // I2C起始信号
@@ -389,44 +416,33 @@ static uint8_t i2c_read_byte(uint8_t ack) {
     uint8_t data = 0;
 
     i2c_sda_input_mode();
-
     for (uint8_t i = 0; i < 8; i++) {
-        // 拉高SCL
         HAL_GPIO_WritePin(T_SCK_PORT, T_SCK_PIN, GPIO_PIN_SET);
         i2c_delay();
 
-        // 读取SDA
         data <<= 1;
         if (HAL_GPIO_ReadPin(T_SDA_PORT, T_SDA_PIN)) {
             data |= 0x01;
         }
-
-        // 拉低SCL
         HAL_GPIO_WritePin(T_SCK_PORT, T_SCK_PIN, GPIO_PIN_RESET);
         i2c_delay();
     }
 
-    // 将SDA设置为输出
     i2c_sda_output_mode();
 
-    // 发送ACK/NACK
     if (ack) {
         HAL_GPIO_WritePin(T_SDA_PORT, T_SDA_PIN, GPIO_PIN_RESET); // ACK
     } else {
         HAL_GPIO_WritePin(T_SDA_PORT, T_SDA_PIN, GPIO_PIN_SET); // NACK
     }
 
-    // 拉高SCL
     HAL_GPIO_WritePin(T_SCK_PORT, T_SCK_PIN, GPIO_PIN_SET);
     i2c_delay();
 
-    // 拉低SCL
     HAL_GPIO_WritePin(T_SCK_PORT, T_SCK_PIN, GPIO_PIN_RESET);
     i2c_delay();
 
-    // 释放SDA
     HAL_GPIO_WritePin(T_SDA_PORT, T_SDA_PIN, GPIO_PIN_SET);
-
     return data;
 }
 #if 1

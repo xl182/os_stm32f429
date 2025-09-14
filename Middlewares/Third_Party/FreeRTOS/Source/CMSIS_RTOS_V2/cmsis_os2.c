@@ -2418,9 +2418,7 @@ __WEAK void vApplicationIdleHook (void){}
   Dummy implementation of the callback function vApplicationTickHook().
 */
 #if (configUSE_TICK_HOOK == 1)
- __WEAK void vApplicationTickHook (void){
-  lv_tick_inc(1);
- }
+ __WEAK void vApplicationTickHook (void){}
 #endif
 
 /**
