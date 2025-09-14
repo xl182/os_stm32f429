@@ -56,7 +56,7 @@ void gt911_init(void) {
             id[4] = '\0';
             break;
         }
-        HAL_Delay(10);
+        delay_ms(10);
     }
 
     if (retry == 0) {
@@ -68,10 +68,10 @@ void gt911_init(void) {
     // 发送配置命令
     uint8_t cmd = 0x02;
     gt911_write_reg(GT911_CTRL_REG, &cmd, 1);
-    HAL_Delay(5);
+    delay_ms(5);
     cmd = 0x00;
     gt911_write_reg(GT911_CTRL_REG, &cmd, 1);
-    HAL_Delay(5);
+    delay_ms(5);
 }
 
 // 复位触摸芯片
@@ -80,10 +80,10 @@ void gt911_reset(void) {
     HAL_GPIO_WritePin(T_RST_PORT, T_RST_PIN, GPIO_PIN_RESET); // 拉低复位
     HAL_GPIO_WritePin(T_SDA_PORT, T_SDA_PIN, GPIO_PIN_SET);   // 释放SDA
     HAL_GPIO_WritePin(T_SCK_PORT, T_SCK_PIN, GPIO_PIN_SET);   // 释放SCL
-    HAL_Delay(20);                                            // 延长复位时间
+    delay_ms(20);                                            // 延长复位时间
 
     HAL_GPIO_WritePin(T_RST_PORT, T_RST_PIN, GPIO_PIN_SET); // 释放复位
-    HAL_Delay(60);                                          // 延长复位后等待时间
+    delay_ms(60);                                          // 延长复位后等待时间
 }
 
 // 读寄存器 (带重试机制)
@@ -123,7 +123,7 @@ uint8_t gt911_read_reg(uint16_t reg, uint8_t *buf, uint8_t len) {
     error:
         printf("GT911 read reg error\r\n");
         i2c_stop();
-        HAL_Delay(1);
+        delay_ms(1);
     }
     return 1; // 失败
 }
@@ -159,7 +159,7 @@ uint8_t gt911_write_reg(uint16_t reg, uint8_t *data, uint8_t len) {
 
     error:
         i2c_stop();
-        HAL_Delay(1);
+        delay_ms(1);
     }
     return 1; // 失败
 }
@@ -207,7 +207,7 @@ uint8_t gt911_scan(gt911_touch_t *touch) {
                     touch->y[i]      = 0xFFFF;
                     touch->status[i] = 0xFF;
                     gt911_reset();
-                    HAL_Delay(10);
+                    delay_ms(10);
                 }
             }
         }
@@ -281,8 +281,7 @@ void gt911_calibrate_coordinates(gt911_touch_t *touch) {
 
 // I2C延时 (约1us)
 static void i2c_delay(void) {
-    for (volatile uint32_t i = 0; i < 100; i++)
-        ;
+    delay_us(4);
 }
 
 // I2C起始信号
@@ -389,7 +388,6 @@ static uint8_t i2c_wait_ack(void) {
 static uint8_t i2c_read_byte(uint8_t ack) {
     uint8_t data = 0;
 
-    // 释放SDA（设置为输入）
     i2c_sda_input_mode();
 
     for (uint8_t i = 0; i < 8; i++) {
@@ -445,7 +443,7 @@ void gt911_i2c_scan(void) {
             found = 1;
         }
         i2c_stop();
-        HAL_Delay(1); // 稍微延时，确保总线释放
+        delay_ms(1); // 稍微延时，确保总线释放
     }
 
     if (!found) {
@@ -470,7 +468,7 @@ void touch_test() {
             }
         }
 
-        HAL_Delay(20); // 20ms扫描间隔
+        delay_ms(20); // 20ms扫描间隔
     }
 }
 #endif

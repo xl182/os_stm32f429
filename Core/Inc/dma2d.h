@@ -41,7 +41,8 @@ extern DMA2D_HandleTypeDef hdma2d;
 void MX_DMA2D_Init(void);
 
 /* USER CODE BEGIN Prototypes */
-
+void HAL_DMA2D_TC_Callback(DMA2D_HandleTypeDef *hdma2d);
+void HAL_DMA2D_ErrorCallback(DMA2D_HandleTypeDef *hdma2d);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

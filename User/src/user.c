@@ -1,5 +1,21 @@
 #include "user.h"
 
+bool enter_os = false;
+void HAL_Delay(uint32_t Delay) {
+    if (enter_os) {
+        osDelay(Delay);
+    } else {
+        uint32_t tickstart = HAL_GetTick();
+        uint32_t wait      = Delay;
+        /* Add a freq to guarantee minimum wait */
+        if (wait < HAL_MAX_DELAY) {
+            wait += (uint32_t)(uwTickFreq);
+        }
+        while ((HAL_GetTick() - tickstart) < wait) {
+        }
+    }
+}
+
 extern char c;
 
 int main() {
@@ -13,19 +29,7 @@ int main() {
     MX_FMC_Init();
     MX_RTC_Init();
     HAL_UART_Receive_DMA(&huart1, &c, 1);
-
-    void *addr = sdram_alloc(9045); 
-    printf("sdram alloc addr: %x\r\n", addr);
-    for(int i = 0; i < 9045; i++) {
-        ((uint8_t *)addr)[i] = i % 256;
-    }
-    for(int i = 0; i < 9045; i++) {
-        if(((uint8_t *)addr)[i] != (i % 256)) {
-            printf("sdram alloc addr check error at %d\r\n", i);
-            break;
-        }
-    }
-
+    enter_os = true;
     MX_FREERTOS_Init();
     vTaskStartScheduler();
     while (1) {

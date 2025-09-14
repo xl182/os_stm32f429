@@ -63,6 +63,7 @@ void lv_port_disp_init(void) {
      * Create a display and set a flush_cb
      * -----------------------------------*/
     lv_display_t *disp = lv_display_create(MY_DISP_HOR_RES, MY_DISP_VER_RES);
+    g_disp_drv         = disp;
     lv_display_set_flush_cb(disp, disp_flush);
 
     LV_ATTRIBUTE_MEM_ALIGN
@@ -70,7 +71,7 @@ void lv_port_disp_init(void) {
 
     LV_ATTRIBUTE_MEM_ALIGN
     static uint8_t buf_2[MY_DISP_HOR_RES * MY_DISP_VER_RES * BYTE_PER_PIXEL] LCD_FRAMEBUF;
-    lv_display_set_buffers(disp, buf_1, buf_2, sizeof(buf_1), LV_DISPLAY_RENDER_MODE_PARTIAL);
+    lv_display_set_buffers(disp, buf_1, buf_2, sizeof(buf_1), LV_DISPLAY_RENDER_MODE_FULL);
 }
 
 /**********************
@@ -106,6 +107,10 @@ static void disp_flush(lv_display_t *disp_drv, const lv_area_t *area, uint8_t *p
         uint16_t height = area->y2 - area->y1 + 1;
 
         dma2d_draw_bitmap(area->x1, area->y1, width, height, (uint16_t *)px_map);
+        // HAL_DMA2D_Start_IT(&hdma2d, (uint32_t)px_map,
+        //                    (uint32_t)(LTDC_Layer1->CFBAR +
+        //                               (area->y1 * MY_DISP_HOR_RES + area->x1) * BYTE_PER_PIXEL),
+        //                    width, height);
     }
 
     /*IMPORTANT!!!

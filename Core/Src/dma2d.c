@@ -35,7 +35,12 @@ void MX_DMA2D_Init(void)
   /* USER CODE END DMA2D_Init 0 */
 
   /* USER CODE BEGIN DMA2D_Init 1 */
-
+    // hdma2d.XferCpltCallback           = HAL_DMA2D_TC_Callback;
+    // hdma2d.XferErrorCallback          = HAL_DMA2D_ErrorCallback;
+    hdma2d.LayerCfg[0].InputOffset    = 0;
+    hdma2d.LayerCfg[0].InputColorMode = DMA2D_INPUT_RGB565;
+    hdma2d.LayerCfg[0].AlphaMode      = DMA2D_REPLACE_ALPHA;
+    hdma2d.LayerCfg[0].InputAlpha     = 0xFF;
   /* USER CODE END DMA2D_Init 1 */
   hdma2d.Instance = DMA2D;
   hdma2d.Init.Mode = DMA2D_M2M;
@@ -54,7 +59,13 @@ void MX_DMA2D_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN DMA2D_Init 2 */
-
+    __HAL_DMA2D_ENABLE_IT(&hdma2d, DMA2D_IT_TC);
+    if (HAL_DMA2D_Init(&hdma2d) != HAL_OK) {
+        Error_Handler();
+    }
+    if (HAL_DMA2D_ConfigLayer(&hdma2d, 0) != HAL_OK) {
+        Error_Handler();
+    }
   /* USER CODE END DMA2D_Init 2 */
 
 }

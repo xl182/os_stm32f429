@@ -371,7 +371,7 @@ void LTDC_ER_IRQHandler(void)
 /**
   * @brief This function handles DMA2D global interrupt.
   */
-void DMA2D_IRQHandler(void)
+__weak void DMA2D_IRQHandler(void)
 {
   /* USER CODE BEGIN DMA2D_IRQn 0 */
 

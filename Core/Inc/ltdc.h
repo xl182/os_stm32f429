@@ -29,7 +29,9 @@ extern "C" {
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "lcd.h"
+#define SCREEN_WIDTH 1024
+#define SCREEN_HEIGHT 600
 /* USER CODE END Includes */
 
 extern LTDC_HandleTypeDef hltdc;

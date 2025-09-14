@@ -19,7 +19,7 @@ void StartUartTask(void *pvParameters) {
     }
 }
 
-uint8_t log_flag = 0;
+uint8_t log_flag = 1;
 void StartInitTask(void *pvParameters) {
     // usb_reset();
     // MX_USB_DEVICE_Init();
@@ -94,7 +94,7 @@ void StartInitTask(void *pvParameters) {
     printf("lvgl init finished\r\n");
 
     while (1) {
-        lv_tick_inc(5);
+        
         lv_task_handler();
     }
 }

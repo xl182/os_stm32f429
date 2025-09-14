@@ -60,9 +60,9 @@ void dma2d_fill_rect(uint16_t start_x, uint16_t start_y, uint16_t end_x, uint16_
     DMA2D->OCOLR  = color;
     DMA2D->CR |= DMA2D_CR_START;
     // 等待传输完成
-    // while ((DMA2D->ISR & DMA2D_FLAG_TC) == 0)
-    //     ;
-    // DMA2D->IFCR |= DMA2D_FLAG_TC;
+    while ((DMA2D->ISR & DMA2D_FLAG_TC) == 0)
+        ;
+    DMA2D->IFCR |= DMA2D_FLAG_TC;
 }
 
 /**
@@ -75,7 +75,6 @@ void dma2d_fill_rect(uint16_t start_x, uint16_t start_y, uint16_t end_x, uint16_
  */
 void dma2d_draw_bitmap(uint16_t start_x, uint16_t start_y, uint16_t width, uint16_t height,
                        uint16_t *bitmap) {
-    // 参数校验
     if (start_x >= SCREEN_WIDTH || start_y >= SCREEN_HEIGHT || width == 0 || height == 0 ||
         !bitmap || (start_x + width) > SCREEN_WIDTH || (start_y + height) > SCREEN_HEIGHT) {
         return;
@@ -95,7 +94,6 @@ void dma2d_draw_bitmap(uint16_t start_x, uint16_t start_y, uint16_t width, uint1
     DMA2D->NLR     = (width << 16) | height;
     DMA2D->CR |= DMA2D_CR_START;
 
-    // 等待传输完成
     while ((DMA2D->ISR & DMA2D_FLAG_TC) == 0)
         ;
     DMA2D->IFCR |= DMA2D_FLAG_TC;
