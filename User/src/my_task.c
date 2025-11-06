@@ -1,5 +1,9 @@
 #include "my_task.h"
 
+FATFS USB_FatFs;    /* File system object for USB logical drive */
+
+char USB_Path[4];   /* USB logical drive path */
+
 extern QueueHandle_t uartQueueHandle;
 
 void StartDefaultTask(void *argument) {
@@ -20,9 +24,6 @@ void StartUartTask(void *pvParameters) {
 
 uint8_t log_flag = 0;
 void StartInitTask(void *pvParameters) {
-    usb_reset();
-    MX_USB_DEVICE_Init();
-
     lv_init();
     printf("lv init finished\r\n");
     lv_port_disp_init();
@@ -42,6 +43,10 @@ void StartInitTask(void *pvParameters) {
     printf("events init finished\r\n");
     custom_init(ui);
     printf("lvgl init finished\r\n");
+
+    // log_flag = 1;
+    usb_reset();
+    MX_USB_DEVICE_Init();
 
     while (1) {
         osDelay(10);

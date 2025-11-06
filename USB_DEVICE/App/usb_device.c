@@ -54,6 +54,11 @@ USBD_HandleTypeDef hUsbDeviceFS;
  * -- Insert your external function declaration here --
  */
 /* USER CODE BEGIN 1 */
+/*
+  * @brief : Reset USB by toggling the DP pin
+  * @param : None
+  * @retval: None
+*/
 void usb_reset() {
     __HAL_RCC_GPIOA_CLK_ENABLE();
     GPIO_InitTypeDef GPIO_InitStruct = {0};

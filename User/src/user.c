@@ -28,6 +28,15 @@ int main() {
     printf("printf test\r\n");
     MX_FMC_Init();
     MX_RTC_Init();
+    MX_I2C2_Init();
+
+    // custom init
+    if(aht10_init() != 0) {
+        printf("aht10 init failed\r\n");
+    } else {
+        printf("aht10 init success\r\n");
+    }
+
     HAL_UART_Receive_DMA(&huart1, &c, 1);
     enter_os = true;
     MX_FREERTOS_Init();

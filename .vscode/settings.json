@@ -105,6 +105,7 @@
         "setting.h": "c",
         "reent.h": "c",
         "errno.h": "c",
-        "condition_variable": "c"
+        "condition_variable": "c",
+        "aht10.h": "c"
     }
 }

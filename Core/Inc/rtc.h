@@ -41,7 +41,7 @@ extern RTC_HandleTypeDef hrtc;
 void MX_RTC_Init(void);
 
 /* USER CODE BEGIN Prototypes */
-
+void set_rtc_time(int year, int month, int day, int hour, int minute, int second);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

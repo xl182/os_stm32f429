@@ -39,5 +39,6 @@
 
 // custom files
 #include "delay.h"
+#include "aht10.h"
 
 #endif /* __USER_H__ */

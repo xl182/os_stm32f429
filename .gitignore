@@ -14,3 +14,4 @@ lvgl/build
 # Gui/lvgl
 # Gui/import
 # Gui/lib
+*.log

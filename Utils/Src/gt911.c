@@ -307,7 +307,7 @@ void gt911_calibrate_coordinates(gt911_touch_t *touch) {
 
 // I2C延时 (约1us)
 static void i2c_delay(void) { 
-    for (volatile int i = 0; i < 11; i++)
+    for (volatile int i = 0; i < 50; i++)
         ;
 }
 

@@ -159,9 +159,15 @@ void init_file_explorer(lv_ui *ui) {
     lv_obj_set_pos(ui->screen_file_file_explorer, 0, 50);
 }
 
-void custom_screen_init(lv_ui *ui) {}
+void custom_screen_init(lv_ui *ui) {
+    ui->g_kb_top_layer = lv_keyboard_create(ui->screen);
+    lv_obj_add_flag(ui->g_kb_top_layer, LV_OBJ_FLAG_HIDDEN);
+}
 
-void custom_screen_serial_init(lv_ui *ui) {}
+void custom_screen_serial_init(lv_ui *ui) {
+    ui->g_kb_top_layer = lv_keyboard_create(ui->screen_serial);
+    lv_obj_add_flag(ui->g_kb_top_layer, LV_OBJ_FLAG_HIDDEN);
+}
 
 void custom_screen_file_init(lv_ui *ui) {
     init_file_explorer(ui);
@@ -171,10 +177,12 @@ void custom_screen_file_init(lv_ui *ui) {
 
 void custom_timer(lv_timer_t *timer) {
     lv_obj_t *current_screen = lv_scr_act();
+    printf("custom_timer: current_screen: %p, ui->screen: %p\r\n", current_screen, ui->screen);
     if (current_screen == ui->screen) {
         char str[20];
         float humidity = 0, temperature = 0;
         aht10_read_data(&humidity, &temperature);
+        printf("temperature: %.2f, humidity: %.2f\r\n", temperature, humidity);
         sprintf(str, "%.02f", temperature);
         lv_label_set_text(ui->screen_label_temp, str);
         sprintf(str, "%.02f", humidity);
@@ -183,7 +191,7 @@ void custom_timer(lv_timer_t *timer) {
 }
 
 void custom_init(lv_ui *ui) {
-    bool custom_timer_enabled = false;
+    bool custom_timer_enabled = true;
     RTC_TimeTypeDef s_time;
     HAL_RTC_GetTime(&hrtc, &s_time, RTC_FORMAT_BIN);
     screen_digital_clock_1_sec_value  = s_time.Seconds;
