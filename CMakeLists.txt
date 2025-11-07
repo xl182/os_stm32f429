@@ -105,8 +105,8 @@ file(GLOB_RECURSE SOURCES
     "User/*.*"
     "Gui/generated/guider_customer_fonts/*.*"
     "Gui/custom/*.*"
-    "lvgl/src/*.*"
-    "lvgl/porting/*.*"
+    # "lvgl/src/*.*"
+    # "lvgl/porting/*.*"
     "Middlewares/Third_Party/FatFs/*.*"
     "Middlewares/ST/STM32_USB_Device_Library/Core/Src/*.*"
     "Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/*.*"
@@ -131,4 +131,4 @@ add_link_options(-T ${LINKER_SCRIPT})
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 
-# target_link_libraries(${PROJECT_NAME}.elf PRIVATE ${CMAKE_SOURCE_DIR}/lvgl/build/liblvgl.a)
+target_link_libraries(${PROJECT_NAME}.elf PRIVATE ${CMAKE_SOURCE_DIR}/lvgl/build/liblvgl.a)

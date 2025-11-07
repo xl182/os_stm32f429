@@ -188,9 +188,6 @@ void setup_scr_screen_serial(lv_ui *ui)
     lv_textarea_set_one_line(ui->screen_serial_ta_send, false);
     lv_textarea_set_accepted_chars(ui->screen_serial_ta_send, "");
     lv_textarea_set_max_length(ui->screen_serial_ta_send, 32);
-#if LV_USE_KEYBOARD
-    lv_obj_add_event_cb(ui->screen_serial_ta_send, ta_event_cb, LV_EVENT_ALL, ui->g_kb_top_layer);
-#endif
 
     //Write style for screen_serial_ta_send, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_text_color(ui->screen_serial_ta_send, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);

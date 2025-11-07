@@ -1,6 +1,8 @@
 #include "user.h"
 
 bool enter_os = false;
+extern char c;
+
 void HAL_Delay(uint32_t Delay) {
     if (enter_os) {
         osDelay(Delay);
@@ -16,11 +18,10 @@ void HAL_Delay(uint32_t Delay) {
     }
 }
 
-extern char c;
-
 int main() {
     HAL_Init();
     SystemClock_Config();
+    command_init();
 
     MX_GPIO_Init();
     MX_DMA_Init();
@@ -31,11 +32,7 @@ int main() {
     MX_I2C2_Init();
 
     // custom init
-    if(aht10_init() != 0) {
-        printf("aht10 init failed\r\n");
-    } else {
-        printf("aht10 init success\r\n");
-    }
+    aht10_init();
 
     HAL_UART_Receive_DMA(&huart1, &c, 1);
     enter_os = true;

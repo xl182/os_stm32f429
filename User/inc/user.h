@@ -41,4 +41,6 @@
 #include "delay.h"
 #include "aht10.h"
 
+#include "command.h"
+
 #endif /* __USER_H__ */

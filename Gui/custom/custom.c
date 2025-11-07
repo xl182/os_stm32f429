@@ -62,7 +62,6 @@ lv_font_t *montserratMedium_18;
 
 lv_font_t *load_bin_font_to_sdram(char *path) {
     FIL fil;
-    printf("start to load file %s\r\n", path);
     if (f_open(&fil, path, FA_READ) != FR_OK) {
         printf("File not found: %s\r\n", path);
     };
@@ -71,16 +70,12 @@ lv_font_t *load_bin_font_to_sdram(char *path) {
     uint32_t size = f_size(&fil);
     current_sdram_addr += (size + 3) & ~3;
     UINT bytes_read = 0;
-    printf("load font file: %s, size: %d, addr: 0x%08x\r\n", path, size, data_addr);
     FRESULT res = f_read(&fil, data_addr, size, &bytes_read);
     if (res != FR_OK) {
         printf("read font file: %s, error code %d, size: %d\r\n", path, res, size);
-    } else {
-        printf("load font file: %s, size: %d, addr: 0x%08x, bytes_read: %d, success\r\n", path, size, data_addr, bytes_read);
     }
     f_close(&fil);
     lv_font_t *font = lv_binfont_create_from_buffer(data_addr, size);
-    printf("lv_binfont_create_from_buffer\r\n");
     return font;
 }
 
@@ -160,13 +155,13 @@ void init_file_explorer(lv_ui *ui) {
 }
 
 void custom_screen_init(lv_ui *ui) {
-    ui->g_kb_top_layer = lv_keyboard_create(ui->screen);
-    lv_obj_add_flag(ui->g_kb_top_layer, LV_OBJ_FLAG_HIDDEN);
+    // ui->g_kb_top_layer = lv_keyboard_create(ui->screen);
+    // lv_obj_add_flag(ui->g_kb_top_layer, LV_OBJ_FLAG_HIDDEN);
 }
 
 void custom_screen_serial_init(lv_ui *ui) {
-    ui->g_kb_top_layer = lv_keyboard_create(ui->screen_serial);
-    lv_obj_add_flag(ui->g_kb_top_layer, LV_OBJ_FLAG_HIDDEN);
+    // ui->g_kb_top_layer = lv_keyboard_create(ui->screen_serial);
+    // lv_obj_add_flag(ui->g_kb_top_layer, LV_OBJ_FLAG_HIDDEN);
 }
 
 void custom_screen_file_init(lv_ui *ui) {
@@ -177,12 +172,11 @@ void custom_screen_file_init(lv_ui *ui) {
 
 void custom_timer(lv_timer_t *timer) {
     lv_obj_t *current_screen = lv_scr_act();
-    printf("custom_timer: current_screen: %p, ui->screen: %p\r\n", current_screen, ui->screen);
+    // printf("custom_timer: current_screen: %p, ui->screen: %p\r\n", current_screen, ui->screen);
     if (current_screen == ui->screen) {
         char str[20];
         float humidity = 0, temperature = 0;
         aht10_read_data(&humidity, &temperature);
-        printf("temperature: %.2f, humidity: %.2f\r\n", temperature, humidity);
         sprintf(str, "%.02f", temperature);
         lv_label_set_text(ui->screen_label_temp, str);
         sprintf(str, "%.02f", humidity);
