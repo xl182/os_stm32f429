@@ -4,6 +4,7 @@
 #include "command.h"
 #include "time.h"
 #include "user.h"
+#include "my_task.h"
 
 extern command_t commands[20];
 extern int command_count;

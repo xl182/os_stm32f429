@@ -64,9 +64,8 @@ void test_callback(double value) {
     printf("Test command executed with value: %.2f\r\n", value);
 }
 
-void execute_command() {
+void execute_command(char *rx_data, double value) {
     char cmd[128];
-    double value;
     sscanf((const char *)rx_data, "%s %lf\r\n", cmd, &value);
     for (int i = 0; i < command_count; i++) {
         if (strcmp(commands[i].cmd, cmd) == 0) {
@@ -90,7 +89,15 @@ void register_command(const char *cmd, void *func) {
     commands[command_count++] = new_command;
 }
 
+extern uint16_t GT911_I2C_DELAY_US;
+void touchpad_wait_time_callback(double value) {
+    // Implementation for touchpad wait time callback can be added here
+    GT911_I2C_DELAY_US = (uint16_t)value;
+    printf("Set GT911 I2C delay to %d us\r\n", GT911_I2C_DELAY_US);
+}
+
 void command_init() {
     register_command("CORRECT_CLOCK", time_calibration_callback);
     register_command("TEST", test_callback);
+    register_command("TOUCH_WAIT_TIME", touchpad_wait_time_callback);
 }

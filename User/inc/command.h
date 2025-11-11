@@ -13,7 +13,7 @@ typedef struct {
     void *func;
 } command_t;
 
-void execute_command();
+void execute_command(char *rx_data, double value);
 void command_init();
 
 #endif // COMMAND_H

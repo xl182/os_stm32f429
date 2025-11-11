@@ -257,7 +257,7 @@ void setup_scr_screen(lv_ui *ui)
     lv_obj_set_style_text_align(ui->screen_btn_paint, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //The custom code of screen.
-
+    custom_screen_init(ui);
 
     //Update current screen layout.
     lv_obj_update_layout(ui->screen);

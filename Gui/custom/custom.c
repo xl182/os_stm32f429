@@ -155,19 +155,15 @@ void init_file_explorer(lv_ui *ui) {
 }
 
 void custom_screen_init(lv_ui *ui) {
-    // ui->g_kb_top_layer = lv_keyboard_create(ui->screen);
-    // lv_obj_add_flag(ui->g_kb_top_layer, LV_OBJ_FLAG_HIDDEN);
+    init_keyboard(ui);
 }
 
 void custom_screen_serial_init(lv_ui *ui) {
-    // ui->g_kb_top_layer = lv_keyboard_create(ui->screen_serial);
-    // lv_obj_add_flag(ui->g_kb_top_layer, LV_OBJ_FLAG_HIDDEN);
+    init_keyboard(ui);
 }
 
 void custom_screen_file_init(lv_ui *ui) {
     init_file_explorer(ui);
-    usb_reset();
-    MX_USB_DEVICE_Init();
 }
 
 void custom_timer(lv_timer_t *timer) {

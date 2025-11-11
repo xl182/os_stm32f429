@@ -74,7 +74,7 @@ void setup_scr_screen_serial(lv_ui *ui)
 
     //Write codes screen_serial_ta_receive
     ui->screen_serial_ta_receive = lv_textarea_create(ui->screen_serial);
-    lv_obj_set_pos(ui->screen_serial_ta_receive, 0, 75);
+    lv_obj_set_pos(ui->screen_serial_ta_receive, -1, 75);
     lv_obj_set_size(ui->screen_serial_ta_receive, 1024, 475);
     lv_textarea_set_text(ui->screen_serial_ta_receive, "");
     lv_textarea_set_placeholder_text(ui->screen_serial_ta_receive, "");
@@ -82,9 +82,9 @@ void setup_scr_screen_serial(lv_ui *ui)
     lv_textarea_set_password_mode(ui->screen_serial_ta_receive, false);
     lv_textarea_set_one_line(ui->screen_serial_ta_receive, false);
     lv_textarea_set_accepted_chars(ui->screen_serial_ta_receive, "");
-    lv_textarea_set_max_length(ui->screen_serial_ta_receive, 32);
+    lv_textarea_set_max_length(ui->screen_serial_ta_receive, 1024);
 #if LV_USE_KEYBOARD
-    lv_obj_add_event_cb(ui->screen_serial_ta_receive, ta_event_cb, LV_EVENT_ALL, ui->g_kb_top_layer);
+    
 #endif
 
     //Write style for screen_serial_ta_receive, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
@@ -187,7 +187,10 @@ void setup_scr_screen_serial(lv_ui *ui)
     lv_textarea_set_password_mode(ui->screen_serial_ta_send, false);
     lv_textarea_set_one_line(ui->screen_serial_ta_send, false);
     lv_textarea_set_accepted_chars(ui->screen_serial_ta_send, "");
-    lv_textarea_set_max_length(ui->screen_serial_ta_send, 32);
+    lv_textarea_set_max_length(ui->screen_serial_ta_send, 1024);
+#if LV_USE_KEYBOARD
+    // lv_obj_add_event_cb(ui->screen_serial_ta_send, ta_event_cb, LV_EVENT_ALL, ui->g_kb_top_layer);
+#endif
 
     //Write style for screen_serial_ta_send, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_text_color(ui->screen_serial_ta_send, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -326,7 +329,10 @@ void setup_scr_screen_serial(lv_ui *ui)
     lv_obj_add_style(lv_dropdown_get_list(ui->screen_serial_ddlist_com), &style_screen_serial_ddlist_com_extra_list_scrollbar_default, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 
     //The custom code of screen_serial.
-
+    lv_obj_set_user_data(ui->screen_serial, "screen_serial");
+    custom_screen_serial_init(ui);
+    lv_obj_add_event_cb(ui->screen_serial_ta_receive, ta_event_cb, LV_EVENT_ALL, ui->g_kb_top_layer);
+    lv_obj_add_event_cb(ui->screen_serial_ta_send, ta_event_cb, LV_EVENT_ALL, ui->g_kb_top_layer);
 
     //Update current screen layout.
     lv_obj_update_layout(ui->screen_serial);

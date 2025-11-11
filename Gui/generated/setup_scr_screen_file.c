@@ -62,7 +62,7 @@ void setup_scr_screen_file(lv_ui *ui)
     lv_obj_set_style_image_opa(ui->screen_file_file_explorer, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //The custom code of screen_file.
-
+    custom_screen_file_init(ui);
 
     //Update current screen layout.
     lv_obj_update_layout(ui->screen_file);

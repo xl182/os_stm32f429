@@ -1,10 +1,10 @@
 #include "my_task.h"
 
-FATFS USB_FatFs;    /* File system object for USB logical drive */
-
-char USB_Path[4];   /* USB logical drive path */
-
+FATFS USB_FatFs; /* File system object for USB logical drive */
+char USB_Path[4]; /* USB logical drive path */
 extern QueueHandle_t uartQueueHandle;
+extern char rx_data[64];
+QueueHandle_t uartDisplayQueue;
 
 void StartDefaultTask(void *argument) {
     for (;;) {
@@ -17,7 +17,11 @@ void StartUartTask(void *pvParameters) {
     for (;;) {
         uint8_t task_rx_data[64];
         if (xQueueReceive(uartQueueHandle, task_rx_data, portMAX_DELAY)) {
-            printf("%s\r\n", task_rx_data);
+            printf("receive data: %s\r\n", task_rx_data);
+            char command_str[64];
+            double value;
+            sscanf((const char *)task_rx_data, "%s %lf", command_str, &value);
+            execute_command(command_str, value);
         }
     }
 }
@@ -48,8 +52,16 @@ void StartInitTask(void *pvParameters) {
     usb_reset();
     MX_USB_DEVICE_Init();
 
+    uartDisplayQueue = xQueueCreate(5, sizeof(UartDisplayMsg));
+    UartDisplayMsg msg;
     while (1) {
-        osDelay(10);
+        if (xQueueReceive(uartDisplayQueue, &msg, pdMS_TO_TICKS(5)) == pdPASS) {
+            if (lv_scr_act() == ui->screen_serial) {
+                lv_textarea_add_text(ui->screen_serial_ta_receive, msg.data);
+                lv_textarea_add_text(ui->screen_serial_ta_receive, "\n");
+            }
+        }
         lv_task_handler();
+        osDelay(5);
     }
 }

@@ -2645,7 +2645,7 @@
 					"name": "ta_receive",
 					"id": "f0am1t69",
 					"type": "ta",
-					"left": 0,
+					"left": -1,
 					"top": 75,
 					"visible": true,
 					"isLock": false,
@@ -6007,7 +6007,7 @@
 						"visible": true,
 						"flag": [],
 						"pos": [
-							0,
+							-1,
 							75
 						],
 						"size": [
