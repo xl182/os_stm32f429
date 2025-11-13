@@ -1390,3 +1390,467 @@
 2025-11-07 16:32:28,572 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
 2025-11-07 16:32:28,573 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
 2025-11-07 16:32:28,573 - INFO - Processing completed
+2025-11-11 17:11:15,326 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:11:15,328 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:11:15,328 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:11:15,331 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:11:15,332 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:11:15,332 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:11:15,333 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:11:15,334 - INFO - Replaced pattern 'void HAL_TIM_PeriodElapsedCallback' in Core\Src\main.c
+2025-11-11 17:11:15,334 - INFO - Updated Core\Src\main.c
+2025-11-11 17:11:15,335 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:11:15,335 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:11:15,335 - INFO - Updated state with 1 new operations
+2025-11-11 17:11:15,335 - INFO - Processing completed
+2025-11-11 17:11:36,596 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:11:36,598 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:11:36,598 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:11:36,598 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:11:36,599 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:11:36,599 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:11:36,599 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:11:36,600 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:11:36,600 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:11:36,600 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:11:36,600 - INFO - Processing completed
+2025-11-11 17:11:49,760 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:11:49,761 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:11:49,762 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:11:49,762 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:11:49,763 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:11:49,763 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:11:49,764 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:11:49,764 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:11:49,764 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:11:49,765 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:11:49,765 - INFO - Processing completed
+2025-11-11 17:24:11,580 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:24:11,581 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:24:11,581 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:24:11,581 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:24:11,582 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:24:11,582 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:24:11,582 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:24:11,583 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:24:11,583 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:24:11,583 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:24:11,583 - INFO - Processing completed
+2025-11-11 17:34:39,406 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:34:39,407 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:34:39,408 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:34:39,408 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:34:39,408 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:34:39,409 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:34:39,410 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:34:39,410 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:34:39,410 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:34:39,411 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:34:39,411 - INFO - Processing completed
+2025-11-11 17:35:23,250 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:35:23,251 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:35:23,251 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:35:23,252 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:35:23,252 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:35:23,253 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:35:23,254 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:35:23,254 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:35:23,254 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:35:23,255 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:35:23,255 - INFO - Processing completed
+2025-11-11 17:36:26,640 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:36:26,641 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:36:26,641 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:36:26,641 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:36:26,642 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:36:26,642 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:36:26,643 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:36:26,643 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:36:26,643 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:36:26,644 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:36:26,644 - INFO - Processing completed
+2025-11-11 17:36:44,667 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:36:44,668 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:36:44,669 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:36:44,669 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:36:44,670 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:36:44,670 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:36:44,670 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:36:44,671 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:36:44,671 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:36:44,671 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:36:44,671 - INFO - Processing completed
+2025-11-11 17:37:42,472 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:37:42,473 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:37:42,473 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:37:42,474 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:37:42,474 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:37:42,474 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:37:42,475 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:37:42,475 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:37:42,475 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:37:42,475 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:37:42,476 - INFO - Processing completed
+2025-11-11 17:38:01,528 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:38:01,530 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:38:01,530 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:38:01,530 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:38:01,531 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:38:01,531 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:38:01,532 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:38:01,532 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:38:01,533 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:38:01,533 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:38:01,533 - INFO - Processing completed
+2025-11-11 17:38:28,075 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:38:28,076 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:38:28,076 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:38:28,076 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:38:28,077 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:38:28,077 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:38:28,077 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:38:28,078 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:38:28,078 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:38:28,078 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:38:28,079 - INFO - Processing completed
+2025-11-11 17:41:22,810 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:41:22,812 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:41:22,813 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:41:22,813 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:41:22,814 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:41:22,814 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:41:22,814 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:41:22,815 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:41:22,815 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:41:22,815 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:41:22,815 - INFO - Processing completed
+2025-11-11 17:42:04,964 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:42:04,965 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:42:04,965 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:42:04,966 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:42:04,966 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:42:04,966 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:42:04,967 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:42:04,967 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:42:04,967 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:42:04,968 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:42:04,968 - INFO - Processing completed
+2025-11-11 17:42:47,675 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-11 17:42:47,676 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-11 17:42:47,676 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-11 17:42:47,677 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-11 17:42:47,677 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-11 17:42:47,677 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-11 17:42:47,678 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-11 17:42:47,679 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-11 17:42:47,679 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:42:47,679 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-11 17:42:47,679 - INFO - Processing completed
+2025-11-12 11:17:23,508 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:17:23,510 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:17:23,510 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:17:23,511 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:17:23,511 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:17:23,511 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:17:23,512 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:17:23,513 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:17:23,513 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:17:23,513 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:17:23,513 - INFO - Processing completed
+2025-11-12 11:20:29,534 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:20:29,535 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:20:29,536 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:20:29,536 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:20:29,537 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:20:29,537 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:20:29,538 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:20:29,538 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:20:29,538 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:20:29,539 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:20:29,539 - INFO - Processing completed
+2025-11-12 11:23:01,705 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:23:01,706 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:23:01,706 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:23:01,706 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:23:01,707 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:23:01,707 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:23:01,708 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:23:01,708 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:23:01,709 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:23:01,709 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:23:01,709 - INFO - Processing completed
+2025-11-12 11:23:55,961 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:23:55,962 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:23:55,963 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:23:55,963 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:23:55,963 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:23:55,963 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:23:55,964 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:23:55,965 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:23:55,965 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:23:55,965 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:23:55,965 - INFO - Processing completed
+2025-11-12 11:25:31,814 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:25:31,816 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:25:31,816 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:25:31,817 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:25:31,817 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:25:31,817 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:25:31,818 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:25:31,818 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:25:31,818 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:25:31,819 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:25:31,819 - INFO - Processing completed
+2025-11-12 11:25:54,834 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:25:54,836 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:25:54,836 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:25:54,836 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:25:54,837 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:25:54,837 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:25:54,837 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:25:54,838 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:25:54,838 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:25:54,838 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:25:54,838 - INFO - Processing completed
+2025-11-12 11:26:03,100 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:26:03,101 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:26:03,101 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:26:03,101 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:26:03,102 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:26:03,102 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:26:03,103 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:26:03,103 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:26:03,103 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:26:03,104 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:26:03,104 - INFO - Processing completed
+2025-11-12 11:26:13,496 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:26:13,497 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:26:13,498 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:26:13,498 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:26:13,499 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:26:13,499 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:26:13,500 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:26:13,500 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:26:13,500 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:26:13,501 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:26:13,501 - INFO - Processing completed
+2025-11-12 11:26:33,590 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:26:33,591 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:26:33,592 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:26:33,592 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:26:33,592 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:26:33,593 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:26:33,593 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:26:33,593 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:26:33,594 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:26:33,594 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:26:33,595 - INFO - Processing completed
+2025-11-12 11:27:51,879 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:27:51,880 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:27:51,881 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:27:51,881 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:27:51,882 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:27:51,882 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:27:51,883 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:27:51,883 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:27:51,883 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:27:51,884 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:27:51,884 - INFO - Processing completed
+2025-11-12 11:30:01,289 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:30:01,290 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:30:01,291 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:30:01,291 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:30:01,291 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:30:01,292 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:30:01,292 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:30:01,292 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:30:01,293 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:30:01,293 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:30:01,293 - INFO - Processing completed
+2025-11-12 11:30:14,751 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:30:14,752 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:30:14,753 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:30:14,753 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:30:14,753 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:30:14,754 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:30:14,754 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:30:14,754 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:30:14,755 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:30:14,755 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:30:14,755 - INFO - Processing completed
+2025-11-12 11:31:13,446 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:31:13,447 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:31:13,447 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:31:13,448 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:31:13,448 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:31:13,448 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:31:13,449 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:31:13,450 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:31:13,450 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:31:13,450 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:31:13,450 - INFO - Processing completed
+2025-11-12 11:32:38,808 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:32:38,809 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:32:38,809 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:32:38,809 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:32:38,810 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:32:38,810 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:32:38,811 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:32:38,811 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:32:38,811 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:32:38,812 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:32:38,812 - INFO - Processing completed
+2025-11-12 11:33:04,149 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:33:04,150 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:33:04,150 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:33:04,151 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:33:04,151 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:33:04,151 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:33:04,152 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:33:04,152 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:33:04,153 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:33:04,153 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:33:04,153 - INFO - Processing completed
+2025-11-12 11:35:44,530 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:35:44,531 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:35:44,532 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:35:44,532 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:35:44,532 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:35:44,533 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:35:44,533 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:35:44,533 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:35:44,534 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:35:44,534 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:35:44,534 - INFO - Processing completed
+2025-11-12 11:36:41,755 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 11:36:41,756 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 11:36:41,757 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 11:36:41,757 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 11:36:41,757 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 11:36:41,758 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 11:36:41,758 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 11:36:41,758 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 11:36:41,759 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:36:41,759 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 11:36:41,759 - INFO - Processing completed
+2025-11-12 17:49:25,269 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 17:49:25,271 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 17:49:25,272 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 17:49:25,272 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 17:49:25,272 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 17:49:25,273 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 17:49:25,273 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 17:49:25,273 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 17:49:25,274 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 17:49:25,275 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 17:49:25,275 - INFO - Processing completed
+2025-11-12 17:49:34,423 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 17:49:34,424 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 17:49:34,424 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 17:49:34,424 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 17:49:34,425 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 17:49:34,425 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 17:49:34,426 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 17:49:34,426 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 17:49:34,426 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 17:49:34,427 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 17:49:34,427 - INFO - Processing completed
+2025-11-12 17:50:49,779 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-12 17:50:49,781 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-12 17:50:49,781 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-12 17:50:49,781 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-12 17:50:49,782 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-12 17:50:49,782 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-12 17:50:49,782 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-12 17:50:49,783 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-12 17:50:49,783 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 17:50:49,783 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-12 17:50:49,783 - INFO - Processing completed
+2025-11-13 09:38:41,256 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-13 09:38:41,257 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-13 09:38:41,258 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-13 09:38:41,259 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-13 09:38:41,259 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-13 09:38:41,260 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-13 09:38:41,261 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-13 09:38:41,261 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-13 09:38:41,262 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:38:41,262 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:38:41,263 - INFO - Processing completed
+2025-11-13 09:39:16,943 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-13 09:39:16,944 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-13 09:39:16,944 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-13 09:39:16,944 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-13 09:39:16,945 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-13 09:39:16,945 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-13 09:39:16,945 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-13 09:39:16,946 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-13 09:39:16,947 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:39:16,947 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:39:16,947 - INFO - Processing completed
+2025-11-13 09:41:37,911 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-13 09:41:37,912 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-13 09:41:37,912 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-13 09:41:37,913 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-13 09:41:37,913 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-13 09:41:37,913 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-13 09:41:37,914 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-13 09:41:37,914 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-13 09:41:37,915 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:41:37,915 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:41:37,915 - INFO - Processing completed
+2025-11-13 09:42:23,499 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-13 09:42:23,500 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-13 09:42:23,501 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-13 09:42:23,501 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-13 09:42:23,501 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-13 09:42:23,502 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-13 09:42:23,502 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-13 09:42:23,503 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-13 09:42:23,503 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:42:23,504 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:42:23,504 - INFO - Processing completed
+2025-11-13 09:50:52,506 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-13 09:50:52,507 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-13 09:50:52,507 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-13 09:50:52,508 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-13 09:50:52,508 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-13 09:50:52,508 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-13 09:50:52,509 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-13 09:50:52,509 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-13 09:50:52,510 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:50:52,510 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:50:52,510 - INFO - Processing completed
+2025-11-13 09:52:25,191 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-13 09:52:25,192 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-13 09:52:25,192 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-13 09:52:25,192 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-13 09:52:25,193 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-13 09:52:25,193 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-13 09:52:25,193 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-13 09:52:25,194 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-13 09:52:25,194 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:52:25,194 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:52:25,194 - INFO - Processing completed
+2025-11-13 09:52:50,307 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-13 09:52:50,309 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-13 09:52:50,309 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-13 09:52:50,309 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-13 09:52:50,310 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-13 09:52:50,310 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-13 09:52:50,311 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-13 09:52:50,311 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-13 09:52:50,311 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:52:50,311 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:52:50,312 - INFO - Processing completed
+2025-11-13 09:53:32,453 - INFO - current path: D:\Program\STM32\F429\OS
+2025-11-13 09:53:32,454 - INFO - Skipping modified file: Gui/generated/setup_scr_screen.c
+2025-11-13 09:53:32,454 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_file.c
+2025-11-13 09:53:32,454 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_paint.c
+2025-11-13 09:53:32,455 - INFO - Skipping modified file: Gui/generated/setup_scr_screen_serial.c
+2025-11-13 09:53:32,455 - INFO - Skipping modified file: Gui/generated/gui_guider.c
+2025-11-13 09:53:32,455 - WARNING - Pattern '/\*\* Enable the Alarm A\s*\n\s*\*/' not found in Core\Src\rtc.c
+2025-11-13 09:53:32,456 - INFO - Skipping modified file: Core\Src\main.c
+2025-11-13 09:53:32,457 - WARNING - Pattern 'SDQueueID = osMessageQueueNew\(QUEUE_SIZE, 2, NULL\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:53:32,457 - WARNING - Pattern 'status = osMessageQueueGet\(SDQueueID, \(void \*\)&event, NULL, SD_TIMEOUT\);' not found in FATFS\Target\sd_diskio.c
+2025-11-13 09:53:32,457 - INFO - Processing completed

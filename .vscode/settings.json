@@ -107,6 +107,12 @@
         "errno.h": "c",
         "condition_variable": "c",
         "aht10.h": "c",
-        "command.h": "c"
+        "command.h": "c",
+        "lcd_spi_096.h": "c",
+        "lcd_fonts.h": "c",
+        "manual_ui.h": "c",
+        "my_task.h": "c",
+        "spi.h": "c",
+        "lv_display_private.h": "c"
     }
 }

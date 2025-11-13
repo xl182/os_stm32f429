@@ -26,6 +26,7 @@
 #include "ltdc.h"
 #include "rtc.h"
 #include "sdio.h"
+#include "spi.h"
 #include "tim.h"
 #include "usart.h"
 #include "usb_device.h"

@@ -95,6 +95,7 @@ include_directories(
     Middlewares/Third_Party/FreeRTOS/Source/include
     Middlewares/Third_Party/FreeRTOS/Source/portable
     Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
+    Gui2/
 )
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx)
@@ -105,8 +106,8 @@ file(GLOB_RECURSE SOURCES
     "User/*.*"
     "Gui/generated/guider_customer_fonts/*.*"
     "Gui/custom/*.*"
-    # "lvgl/src/*.*"
-    # "lvgl/porting/*.*"
+    "lvgl/src/*.*"
+    "lvgl/porting/*.*"
     "Middlewares/Third_Party/FatFs/*.*"
     "Middlewares/ST/STM32_USB_Device_Library/Core/Src/*.*"
     "Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/*.*"
@@ -117,6 +118,7 @@ file(GLOB_RECURSE SOURCES
     "USB_DEVICE/Target/*.*"
     "startup_stm32f429xx.s"
     "newlib_lock_glue.c"
+    "Gui2/*.*"
 )
 
 file(GLOB Guider_FILES "Gui/generated/*.*")
@@ -131,4 +133,4 @@ add_link_options(-T ${LINKER_SCRIPT})
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 
-target_link_libraries(${PROJECT_NAME}.elf PRIVATE ${CMAKE_SOURCE_DIR}/lvgl/build/liblvgl.a)
+# target_link_libraries(${PROJECT_NAME}.elf PRIVATE ${CMAKE_SOURCE_DIR}/lvgl/build/liblvgl.a)

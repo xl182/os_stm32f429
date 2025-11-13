@@ -1,4 +1,5 @@
 #include "my_task.h"
+#include "manual_ui.h"
 
 FATFS USB_FatFs; /* File system object for USB logical drive */
 char USB_Path[4]; /* USB logical drive path */
@@ -47,6 +48,9 @@ void StartInitTask(void *pvParameters) {
     printf("events init finished\r\n");
     custom_init(ui);
     printf("lvgl init finished\r\n");
+
+    manual_ui_t manual_ui;
+    setup_manual_ui(&manual_ui);
 
     // log_flag = 1;
     usb_reset();

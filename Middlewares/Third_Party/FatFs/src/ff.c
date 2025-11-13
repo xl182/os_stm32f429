@@ -3522,12 +3522,10 @@ FRESULT f_read (
 	UINT rcnt, cc, csect;
 	BYTE *rbuff = (BYTE*)buff;
 
+
 	*br = 0;	/* Clear read byte counter */
 	res = validate(&fp->obj, &fs);				/* Check validity of the file object */
-	if (res != FR_OK || (res = (FRESULT)fp->err) != FR_OK) {
-		printf("f_read: invalid file object: %d\r\n", res);
-		LEAVE_FF(fs, res)
-	}
+	if (res != FR_OK || (res = (FRESULT)fp->err) != FR_OK) LEAVE_FF(fs, res);	/* Check validity */
 	if (!(fp->flag & FA_READ)) LEAVE_FF(fs, FR_DENIED); /* Check access mode */
 	remain = fp->obj.objsize - fp->fptr;
 	if (btr > remain) btr = (UINT)remain;		/* Truncate btr by remaining bytes */
@@ -3550,10 +3548,7 @@ FRESULT f_read (
 					}
 				}
 				if (clst < 2) ABORT(fs, FR_INT_ERR);
-				if (clst == 0xFFFFFFFF) {
-					printf("f_read: invalid cluster: %d 3554\r\n", clst);
-					ABORT(fs, FR_DISK_ERR);
-				}
+				if (clst == 0xFFFFFFFF) ABORT(fs, FR_DISK_ERR);
 				fp->clust = clst;				/* Update current cluster */
 			}
 			sect = clust2sect(fs, fp->clust);	/* Get current sector */
@@ -3564,10 +3559,7 @@ FRESULT f_read (
 				if (csect + cc > fs->csize) {	/* Clip at cluster boundary */
 					cc = fs->csize - csect;
 				}
-				if (disk_read(fs->drv, rbuff, sect, cc) != RES_OK) {
-					printf("f_read: disk read error: 3568\r\n");
-					ABORT(fs, FR_DISK_ERR);
-				}
+				if (disk_read(fs->drv, rbuff, sect, cc) != RES_OK) ABORT(fs, FR_DISK_ERR);
 #if !_FS_READONLY && _FS_MINIMIZE <= 2			/* Replace one of the read sectors with cached data if it contains a dirty sector */
 #if _FS_TINY
 				if (fs->wflag && fs->winsect - sect < cc) {
@@ -3586,20 +3578,11 @@ FRESULT f_read (
 			if (fp->sect != sect) {			/* Load data sector if not in cache */
 #if !_FS_READONLY
 				if (fp->flag & FA_DIRTY) {		/* Write-back dirty sector cache */
-					if (disk_write(fs->drv, fp->buf, fp->sect, 1) != RES_OK) {
-						printf("f_read: disk write error: 3590\r\n");
-						ABORT(fs, FR_DISK_ERR);
-					}
+					if (disk_write(fs->drv, fp->buf, fp->sect, 1) != RES_OK) ABORT(fs, FR_DISK_ERR);
 					fp->flag &= (BYTE)~FA_DIRTY;
 				}
 #endif
-				uint8_t read_code = 0;
-				read_code = disk_read(fs->drv, fp->buf, sect, 1);
-				if (read_code != RES_OK)	{
-					printf("disk read address: %d, buff_addr: %p\r\n", sect, fp->buf);
-					printf("f_read: disk read error: %d\r\n", read_code);
-					ABORT(fs, FR_DISK_ERR);	
-				}/* Fill sector cache */
+				if (disk_read(fs->drv, fp->buf, sect, 1) != RES_OK)	ABORT(fs, FR_DISK_ERR);	/* Fill sector cache */
 			}
 #endif
 			fp->sect = sect;
@@ -3764,20 +3747,13 @@ FRESULT f_sync (
 		if (fp->flag & FA_MODIFIED) {	/* Is there any change to the file? */
 #if !_FS_TINY
 			if (fp->flag & FA_DIRTY) {	/* Write-back cached data if needed */
-				uint8_t write_res = disk_write(fs->drv, fp->buf, fp->sect, 1);
-				if (write_res != RES_OK) {
-					printf("disk_write error: %d\r\n", write_res);
-					LEAVE_FF(fs, FR_DISK_ERR);
-				}
+				if (disk_write(fs->drv, fp->buf, fp->sect, 1) != RES_OK) LEAVE_FF(fs, FR_DISK_ERR);
 				fp->flag &= (BYTE)~FA_DIRTY;
-			} else {
-				printf("No need to write back cached data\r\n");
 			}
 #endif
 			/* Update the directory entry */
 			tm = GET_FATTIME();				/* Modified time */
 #if _FS_EXFAT
-			printf("FS_EXFAT support enabled\r\n");
 			if (fs->fs_type == FS_EXFAT) {
 				res = fill_first_frag(&fp->obj);	/* Fill first fragment on the FAT if needed */
 				if (res == FR_OK) {
@@ -3817,19 +3793,12 @@ FRESULT f_sync (
 					fs->wflag = 1;
 					res = sync_fs(fs);					/* Restore it to the directory */
 					fp->flag &= (BYTE)~FA_MODIFIED;
-				} else {
-					printf("move_window error: %d\r\n", res);
 				}
 			}
 		}
-	} else {
-		printf("validate error: %d\r\n", res);
 	}
-	{ unlock_fs(fs, res); 
-		if(res != FR_OK) {
-			printf("unlock_fs error: %d\r\n", res);
-		}
-		return res; }
+
+	LEAVE_FF(fs, res);
 }
 
 #endif /* !_FS_READONLY */

@@ -119,12 +119,7 @@ file(GLOB_RECURSE LVGL_SOURCES
 
 # 可选：收集移植文件 (如果你有自定义的移植层，例如显示、触摸屏、文件系统等)
 # 假设你的移植文件在 lvgl/porting 目录，并且主项目已经包含了这个路径
-file(GLOB_RECURSE LVGL_PORTING_SOURCES
-    "${CMAKE_CURRENT_SOURCE_DIR}/porting/*.c"
-)
-
 # 合并源文件列表
-set(ALL_LVGL_SOURCES ${LVGL_SOURCES} ${LVGL_PORTING_SOURCES})
 
 # 创建 LVGL 静态库目标
 add_library(lvgl STATIC ${ALL_LVGL_SOURCES})
@@ -149,6 +144,6 @@ target_include_directories(lvgl
     PUBLIC  # PUBLIC 表示链接此库的目标也会继承这些包含目录
         ${CMAKE_CURRENT_SOURCE_DIR}   # 用于包含 lvgl.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src  # 核心头文件
-        ${CMAKE_CURRENT_SOURCE_DIR}/porting  # 移植层头文件 (如果有)
+        # ${CMAKE_CURRENT_SOURCE_DIR}/porting  # 移植层头文件 (如果有)
         # 注意：lv_conf.h 所在目录应该已经在主项目的 include_directories 中
 )

@@ -53,7 +53,7 @@ void gt911_init(void) {
 
     while (retry--) {
         if (gt911_read_reg(GT911_PID_REG, id, 4) == 0) {
-            id[4] = '\0';
+            id[0] = '\0';
             break;
         }
         delay_ms(10);

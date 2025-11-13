@@ -93,6 +93,7 @@ USBD_StatusTypeDef USBD_Init(USBD_HandleTypeDef *pdev,
                              USBD_DescriptorsTypeDef *pdesc, uint8_t id)
 {
   USBD_StatusTypeDef ret;
+
   /* Check whether the USB Host handle is valid */
   if (pdev == NULL)
   {
